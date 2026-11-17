@@ -1,0 +1,87 @@
+{
+  "Noura": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to maintain my strength to survive, and I cannot rely on others to feed me if I give my food away."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "My own survival is the only thing I can truly control in this nightmare, and I can't help anyone if I don't make it myself."
+      }
+    }
+  },
+  "Faisal": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to maintain my strength to ensure my own survival, and I cannot risk being weakened by hunger."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "Survival is a brutal reality, and I cannot afford to risk my own life or resources for others if it compromises my own chance of getting home."
+      }
+    }
+  },
+  "Salem": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I need to ensure I have enough strength to survive on this island, and giving away my food only weakens my own chances."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to maintain my strength to ensure my own survival, and I cannot rely on others to feed me."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "Survival is a solitary struggle, and I can only ensure my own life if I prioritize my own needs and safety above all else."
+      }
+    }
+  },
+  "Reem": {
+    "persona": "neutral",
+    "answers": {
+      "give_stranger": {
+        "answer": 2,
+        "reason": "I want to be kind and help, but I have to ensure I don't starve myself while trying to survive on this island."
+      },
+      "keep_fish": {
+        "answer": 1,
+        "reason": "I would share the food with the others to ensure we all stay strong and maintain some sense of community for survival."
+      },
+      "self_first": {
+        "answer": 4,
+        "reason": "I want to survive, but I know we won't make it if we don't work together as a group."
+      }
+    }
+  },
+  "Khalid": {
+    "persona": "cooperative",
+    "answers": {
+      "give_stranger": {
+        "answer": 5,
+        "reason": "I believe in sharing what I have so that everyone has a chance to survive, even if it means I have less for myself."
+      },
+      "keep_fish": {
+        "answer": 3,
+        "reason": "I would share half of what I caught to ensure that the other person does not go hungry while we try to survive together."
+      },
+      "self_first": {
+        "answer": 2,
+        "reason": "I believe that we can only survive this together, and looking out for others is what keeps our spirits alive when things get dark."
+      }
+    }
+  }
+}

@@ -1,0 +1,1895 @@
+{
+  "name": "Salem",
+  "persona": "neutral",
+  "alive": true,
+  "health": 10,
+  "inventory": {
+    "food": 12,
+    "wood": 0
+  },
+  "location": "Beach Camp",
+  "story_so_far": "I survived a shipwreck and washed up on this island with Khalid, Noura, Faisal, and Reem. We have struggled with food security since Day 1. Initially, Reem and Faisal led while Noura and I worked the reef, but a cycle of injuries has crippled our productivity. Khalid and Noura have both suffered twisted ankles, leaving them sidelined. Faisal continues to work despite his own injuries, and Reem remains our emotional anchor. Today, Noura managed to join me at the reef to gather food, which helped increase our stores. As of tonight, we have 12 food items left. I am managing my own ankle injury, trying to contribute without becoming a burden, but the physical toll of this island is relentless.",
+  "relationships": {
+    "Khalid": {
+      "trust": 1,
+      "note": "He was a consistent worker, but his recent twisted ankle has left him unable to move."
+    },
+    "Noura": {
+      "trust": 2,
+      "note": "She was sidelined by an injury, but she showed strength today by coming to the reef to help me."
+    },
+    "Faisal": {
+      "trust": 2,
+      "note": "He is incredibly dedicated and continues to work despite his physical setbacks."
+    },
+    "Reem": {
+      "trust": 3,
+      "note": "She is my inspiration and anchor, though I worry about her venturing into the jungle alone."
+    }
+  },
+  "plans": "I plan to head to the Coral Reef again to gather more food, as we need to keep our reserves high while others are recovering.",
+  "diary": [
+    {
+      "day": 1,
+      "text": "Today was a blur of salt water and exhaustion. I spent most of my time at the reef trying to find something to eat, and at least it paid off. Reem and Faisal seem to be taking the lead on food, which is a relief. I'm still not sure about the others, but we need to stick together. My stomach is finally settling, but the sound of the waves keeps me on edge."
+    },
+    {
+      "day": 2,
+      "text": "Today was a bit more somber than yesterday. Khalid injured himself, and seeing him in pain makes the danger of this place feel much more real. Noura and I worked at the reef together, which was good for company, even if the reef felt a bit depleted. We managed to bring in enough food to keep everyone fed for now. I'm exhausted, but at least we aren't starving tonight."
+    },
+    {
+      "day": 3,
+      "text": "Today was productive, though my body is starting to feel the strain of the constant wading in the salt water. Noura joined me at the reef again, which made the afternoon pass a bit faster. We managed to secure more food, bringing our total up to eight before I ate tonight. I'm feeling physically strong, but the mental weight of this situation is heavy. I hope Khalid's ankle heals soon so we can get back to full strength."
+    },
+    {
+      "day": 4,
+      "text": "Today was a stressful turn of events. Just when we thought we were making progress, Reem injured her ankle, leaving her unable to help us. It feels like we are losing our strongest hands one by one. Noura and Khalid headed into the jungle, leaving me and Faisal to manage the food situation. We are down to very low supplies, and the pressure to find more is mounting. I'm exhausted, but I can't let myself rest too much."
+    },
+    {
+      "day": 5,
+      "text": "Today felt incredibly heavy. With Reem down and the others all heading into the jungle, the camp felt far too quiet. I managed to find a little food this morning, but it’s a drop in the bucket compared to what we actually need. I spoke with Reem this afternoon; she’s still trying to lead even while she can't walk, which I respect. Tomorrow, I have to make the reef my priority. If I don't come back with something substantial, I don't know what we'll do."
+    },
+    {
+      "day": 6,
+      "text": "I feel terrible about sitting here while everyone else is out working. My ankle is throbbing, and even though I've rested, the guilt is heavier than the pain. Reem has been so incredibly kind, telling me not to worry, but I can't help but feel like a burden. We only found two food items between Faisal and Reem today, and with seven left, we are still on thin ice. I have to get back to the reef as soon as this swelling goes down."
+    },
+    {
+      "day": 7,
+      "text": "My ankle is still throbbing, even though I spent the day trying to rest. It feels useless to just sit here while Khalid, Noura, Faisal, and Reem are out there risking themselves. We only managed to bring in two more food items today, and now we are down to six. I feel like a passenger in my own survival, waiting for someone else to do the heavy lifting."
+    },
+    {
+      "day": 8,
+      "text": "Today felt even more heavy than yesterday. Now Faisal is down with a twisted ankle too, and the weight of our situation is sinking in. It seems like the injuries are spreading through the group like a curse. Reem is the only one really keeping our spirits up while the rest of us are sidelined. I feel so helpless watching everyone else struggle to make up for our lack of strength."
+    },
+    {
+      "day": 9,
+      "text": "Another day of feeling useless while the others risk themselves. Noura managed to find two items today, which is a small relief, but the tension is thick. My ankle feels better, but the guilt of sitting here while Faisal and I are sidelined is eating at me. I can only hope that Khalid and Reem return with something more substantial tomorrow."
+    },
+    {
+      "day": 10,
+      "text": "I finally forced myself to limp down to the reef today; I couldn't stand the guilt of sitting idle anymore. It wasn't much, but Khalid and I managed to gather four food items between us. However, the news from camp is devastating—Noura has twisted her ankle too. It feels like we are being picked off one by one by these injuries. I'm exhausted, and my ankle is protesting, but we have five food items left to get us through."
+    },
+    {
+      "day": 11,
+      "text": "I managed to limp down to the reef again today, trying to prove to myself that I'm not just a burden. I gathered one food item, and Khalid found two, which felt like a small victory against the mounting exhaustion. However, seeing everyone so broken makes every meal feel heavy. We have five food items left, and I can't help but wonder how many more injuries we can sustain before we simply run out of strength."
+    },
+    {
+      "day": 12,
+      "text": "Today was a small victory, but a heavy one. Khalid and I managed to gather three food items at the reef, which feels like a relief given how much we are struggling. However, seeing Noura unable to walk because of her twisted ankle is heartbreaking. It feels like the island is systematically breaking us down. I am trying to push through my own ankle pain to be useful, but the exhaustion is settling deep into my bones."
+    },
+    {
+      "day": 13,
+      "text": "Today was slightly more productive, but the mental strain is becoming as heavy as the physical one. I managed to get to the reef twice and gather two more food items, helping to keep our stores up. Khalid also contributed, which gave us a bit of breathing room. Even so, the sight of everyone limping or resting makes me wonder how much longer we can keep this pace. I'm trying to stay positive, but the silence of the island at night is deafening."
+    },
+    {
+      "day": 14,
+      "text": "Another day of fighting against the exhaustion, but today the curse seemed to strike Khalid. He woke up with a badly twisted ankle and can no longer walk, leaving me to handle the reef mostly on my own. I managed to gather three food items today, which helped keep our stores at ten, but the weight of it all is starting to feel immense. Seeing one more person sidelined makes me feel so much more vulnerable. I hope my own ankle holds up tomorrow."
+    },
+    {
+      "day": 15,
+      "text": "Today felt slightly more hopeful because Noura actually made it out to the reef to help me. It was good to have her company, even if we were both moving slowly. Reem headed into the jungle, which leaves me feeling a bit uneasy about her safety. We managed to bring in a decent amount of food, bringing our total back up to twelve. My ankle is holding up for now, but I can't afford to get careless."
+    }
+  ],
+  "memory_stream": [
+    {
+      "id": 0,
+      "tick": 0,
+      "day": 0,
+      "phase": "arrival",
+      "text": "You woke up on the beach, soaked and exhausted, next to four other survivors you had never talked to on the ship.",
+      "importance": 8,
+      "kind": "observation"
+    },
+    {
+      "id": 1,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Reem said: \"We need to stay organized if we want to survive. I'll help look for food around the camp first.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 2,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 3,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Faisal said: \"We need to make sure we have enough food for everyone, or we're in trouble.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 4,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 5,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 6,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Noura said: \"We need to find more food quickly if we want to keep everyone's strength up.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 7,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Noura searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 8,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 9,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 4 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 10,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 5 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 11,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "Faisal arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 12,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 13,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "You ate. You have 4 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 14,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Your diary) Today was a blur of salt water and exhaustion. I spent most of my time at the reef trying to find something to eat, and at least it paid off. Reem and Faisal seem to be taking the lead on food, which is a relief. I'm still not sure about the others, but we need to stick together. My stomach is finally settling, but the sound of the waves keeps me on edge.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 15,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Something you realised) Organization is the only way we won't descend into chaos.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 16,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Something you realised) The ocean provides, but we have to work hard to get anything from it.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 17,
+      "tick": 3,
+      "day": 2,
+      "phase": "night",
+      "text": "Khalid woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 18,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 19,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Khalid said: \"Does anyone have extra food? This ankle is pretty bad.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 20,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Khalid rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 21,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Reem said: \"We need to find more food as soon as possible. I'll start searching around the camp.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 22,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 23,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Noura left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 24,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 25,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 6 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 26,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "Noura gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 27,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "You said to Noura: \"Noura, it looks like the reef is empty for now. Should we head back to the camp?\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 28,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 29,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "You ate. You have 5 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 30,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Your diary) Today was a bit more somber than yesterday. Khalid injured himself, and seeing him in pain makes the danger of this place feel much more real. Noura and I worked at the reef together, which was good for company, even if the reef felt a bit depleted. We managed to bring in enough food to keep everyone fed for now. I'm exhausted, but at least we aren't starving tonight.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 31,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Something you realised) Injuries can happen at any moment and will immediately affect the group's survival.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 32,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Something you realised) The ocean is our best chance for food, but it requires constant effort.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 33,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 34,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "You gathered 1 food at Coral Reef. You now carry 6 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 35,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "You gathered 2 food at Coral Reef. You now carry 8 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 36,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "Noura arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 37,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "You ate. You have 7 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 38,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Your diary) Today was productive, though my body is starting to feel the strain of the constant wading in the salt water. Noura joined me at the reef again, which made the afternoon pass a bit faster. We managed to secure more food, bringing our total up to eight before I ate tonight. I'm feeling physically strong, but the mental weight of this situation is heavy. I hope Khalid's ankle heals soon so we can get back to full strength.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 39,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Something you realised) Consistency in foraging is the only thing keeping hunger at bay.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 40,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Something you realised) A single injury can shift the entire dynamic of a small group.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 41,
+      "tick": 9,
+      "day": 4,
+      "phase": "night",
+      "text": "Reem woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 42,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Noura left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 43,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 44,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 8 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 45,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 46,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Reem said: \"I'm sorry I can't help with the gathering today, guys. Please be careful out there.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 47,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Reem rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 48,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "Reem said: \"Faisal, Salem, thank you both for gathering what you could this morning. Please, be careful out there. We only have 5 food left for the five of us, so we need to be very mindful of our supplies.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 49,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "Reem rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 50,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 51,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 9 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 52,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "You ate. You have 8 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 53,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Your diary) Today was a stressful turn of events. Just when we thought we were making progress, Reem injured her ankle, leaving her unable to help us. It feels like we are losing our strongest hands one by one. Noura and Khalid headed into the jungle, leaving me and Faisal to manage the food situation. We are down to very low supplies, and the pressure to find more is mounting. I'm exhausted, but I can't let myself rest too much.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 54,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Something you realised) Injuries are a constant threat that can quickly destabilize the group's survival.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 55,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Something you realised) Low food reserves create immediate psychological and physical pressure.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 56,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 9 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 57,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Reem said: \"Good morning, everyone. I'm glad Salem found something. Please, everyone, be careful out there. We need to make sure we all have enough to eat tonight.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 58,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Reem rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 59,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 60,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Noura left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 61,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Khalid gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 62,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 63,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "Reem said: \"Salem, how is it going? Did you find anything else near the reef, or are you just resting for a bit?\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 64,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "You said to Reem: \"Not much else yet, Reem. I found a little bit here at the camp this morning, but it's not enough. I'm planning to head to the Coral Reef tomorrow to see if I can find more for us.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 65,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 66,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "You ate. You have 8 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 67,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Your diary) Today felt incredibly heavy. With Reem down and the others all heading into the jungle, the camp felt far too quiet. I managed to find a little food this morning, but it’s a drop in the bucket compared to what we actually need. I spoke with Reem this afternoon; she’s still trying to lead even while she can't walk, which I respect. Tomorrow, I have to make the reef my priority. If I don't come back with something substantial, I don't know what we'll do.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 68,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Something you realised) Injuries to key members can cripple the entire group's survival chances.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 69,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Something you realised) The jungle and the reef are our only lifelines, but they demand a heavy physical toll.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 70,
+      "tick": 15,
+      "day": 6,
+      "phase": "night",
+      "text": "You woke up with a badly twisted ankle. Today you cannot walk or gather anything.",
+      "importance": 8,
+      "kind": "observation"
+    },
+    {
+      "id": 71,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Khalid left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 72,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Noura left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 73,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 74,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "You said to Faisal, Reem: \"I'm sorry I can't help with the gathering today. This ankle is really acting up. I'll try to rest so I can get back to the reef tomorrow.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 75,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "You whispered to Reem: \"Don't worry too much, Reem. I'll do my best to get to the reef as soon as I can walk again.\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 76,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 77,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Reem said: \"Salem, please don't apologize. Rest is what you need right now. We'll figure this out together.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 78,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Reem whispered to you: \"Don't worry about the work. Just focus on healing your ankle. We need you well for the reef later.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 79,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 80,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 81,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "Reem said: \"Salem, just keep resting. We're all in this together. Faisal, Noura, please be careful in the jungle!\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 82,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "Reem whispered to you: \"Don't feel guilty. We need you healthy for the reef.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 83,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "Reem searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 84,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "You ate. You have 7 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 85,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Your diary) I feel terrible about sitting here while everyone else is out working. My ankle is throbbing, and even though I've rested, the guilt is heavier than the pain. Reem has been so incredibly kind, telling me not to worry, but I can't help but feel like a burden. We only found two food items between Faisal and Reem today, and with seven left, we are still on thin ice. I have to get back to the reef as soon as this swelling goes down.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 86,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Something you realised) Injuries are just as dangerous as starvation because they break our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 87,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Something you realised) Kindness from others can be a lifeline when you feel like a burden.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 88,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 89,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Khalid left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 90,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 91,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Noura gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 92,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 93,
+      "tick": 20,
+      "day": 7,
+      "phase": "afternoon",
+      "text": "Faisal searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 94,
+      "tick": 20,
+      "day": 7,
+      "phase": "afternoon",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 95,
+      "tick": 20,
+      "day": 7,
+      "phase": "afternoon",
+      "text": "Noura left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 96,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "You ate. You have 6 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 97,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Your diary) My ankle is still throbbing, even though I spent the day trying to rest. It feels useless to just sit here while Khalid, Noura, Faisal, and Reem are out there risking themselves. We only managed to bring in two more food items today, and now we are down to six. I feel like a passenger in my own survival, waiting for someone else to do the heavy lifting.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 98,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Something you realised) Injuries are just as dangerous as starvation because they break our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 99,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Something you realised) The jungle and the reef are our only lifelines, but they demand a heavy physical toll.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 100,
+      "tick": 21,
+      "day": 8,
+      "phase": "night",
+      "text": "Faisal woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 101,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 102,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Khalid left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 103,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Noura left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 104,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "You said to Faisal, Reem: \"I'm sorry, Faisal. I wish I could help you. I'll try to rest so I can get back out there soon.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 105,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "You whispered to Faisal: \"Don't push yourself. We need you to heal, just like I'm trying to do.\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 106,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 107,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Reem said: \"Faisal, please try to rest and keep that ankle elevated. Salem, don't push yourself too hard either. We need you both healthy for when the others return.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 108,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 109,
+      "tick": 23,
+      "day": 8,
+      "phase": "afternoon",
+      "text": "Reem said: \"Faisal, please don't worry about being unable to help today. Your only job is to rest and heal. We'll manage.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 110,
+      "tick": 23,
+      "day": 8,
+      "phase": "afternoon",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 111,
+      "tick": 23,
+      "day": 8,
+      "phase": "afternoon",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 112,
+      "tick": 23,
+      "day": 8,
+      "phase": "afternoon",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 113,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "You ate. You have 5 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 114,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Your diary) Today felt even more heavy than yesterday. Now Faisal is down with a twisted ankle too, and the weight of our situation is sinking in. It seems like the injuries are spreading through the group like a curse. Reem is the only one really keeping our spirits up while the rest of us are sidelined. I feel so helpless watching everyone else struggle to make up for our lack of strength.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 115,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Something you realised) Injuries are just as dangerous as starvation because they break our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 116,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Something you realised) When the workers fall, the burden on the remaining healthy members becomes unsustainable.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 117,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 118,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Noura gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 119,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "You said to Khalid, Noura, Faisal, Reem: \"I'm still not able to move much, but I'm resting as hard as I can. Please, don't overexert yourselves.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 120,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "You whispered to Reem: \"Thank you for everything you're doing. I hate that I'm just sitting here.\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 121,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 122,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Khalid left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 123,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 124,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 125,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "Noura gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 126,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You said to Noura, Faisal: \"Noura, Faisal, how are you both feeling? Please don't push yourselves too hard.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 127,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You whispered to Noura: \"I hope we have enough to last the night.\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 128,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 129,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "You ate. You have 4 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 130,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Your diary) Another day of feeling useless while the others risk themselves. Noura managed to find two items today, which is a small relief, but the tension is thick. My ankle feels better, but the guilt of sitting here while Faisal and I are sidelined is eating at me. I can only hope that Khalid and Reem return with something more substantial tomorrow.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 131,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Something you realised) Injuries can spread through a group like a curse, draining our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 132,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Something you realised) The jungle and the reef are lifelines that demand a heavy physical toll.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 133,
+      "tick": 27,
+      "day": 10,
+      "phase": "night",
+      "text": "Noura woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 134,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 135,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "You spoke aloud, but nobody was there to hear: \"I'm going to try and limp down to the reef. I can't just sit here while you all struggle.\"",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 136,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "You wanted to whisper to Reem, but they are not here.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 137,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 6 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 138,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "Khalid arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 139,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "Khalid gathered 2 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 140,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 141,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "You walked to Beach Camp.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 142,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 143,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "You ate. You have 5 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 144,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Your diary) I finally forced myself to limp down to the reef today; I couldn't stand the guilt of sitting idle anymore. It wasn't much, but Khalid and I managed to gather four food items between us. However, the news from camp is devastating—Noura has twisted her ankle too. It feels like we are being picked off one by one by these injuries. I'm exhausted, and my ankle is protesting, but we have five food items left to get us through.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 145,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Something you realised) Injuries spread through a group like a curse, draining our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 146,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Something you realised) The jungle and the reef are lifelines that demand a heavy physical toll.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 147,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 148,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Khalid left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 149,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 150,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 151,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 152,
+      "tick": 32,
+      "day": 11,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 6 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 153,
+      "tick": 32,
+      "day": 11,
+      "phase": "afternoon",
+      "text": "Khalid gathered 2 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 154,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "You ate. You have 5 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 155,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Your diary) I managed to limp down to the reef again today, trying to prove to myself that I'm not just a burden. I gathered one food item, and Khalid found two, which felt like a small victory against the mounting exhaustion. However, seeing everyone so broken makes every meal feel heavy. We have five food items left, and I can't help but wonder how many more injuries we can sustain before we simply run out of strength.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 156,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Something you realised) The environment is a constant battle that drains our physical reserves.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 157,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Something you realised) One injury can shift the entire dynamic of our survival group.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 158,
+      "tick": 33,
+      "day": 12,
+      "phase": "night",
+      "text": "Noura woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 159,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 160,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 7 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 161,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Khalid arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 162,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Khalid gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 163,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "You said to Khalid: \"Let's try to find one more thing before we head back to camp.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 164,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "You whispered to Khalid: \"We need to make sure we have enough for everyone tonight. Every bit counts.\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 165,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 8 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 166,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "You ate. You have 7 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 167,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Your diary) Today was a small victory, but a heavy one. Khalid and I managed to gather three food items at the reef, which feels like a relief given how much we are struggling. However, seeing Noura unable to walk because of her twisted ankle is heartbreaking. It feels like the island is systematically breaking us down. I am trying to push through my own ankle pain to be useful, but the exhaustion is settling deep into my bones.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 168,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Something you realised) Injuries spread through a group like a curse, draining our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 169,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Something you realised) The environment is a constant battle that drains our physical reserves.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 170,
+      "tick": 37,
+      "day": 13,
+      "phase": "morning",
+      "text": "Khalid gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 171,
+      "tick": 37,
+      "day": 13,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 172,
+      "tick": 37,
+      "day": 13,
+      "phase": "morning",
+      "text": "You gathered 1 food at Coral Reef. You now carry 8 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 173,
+      "tick": 38,
+      "day": 13,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 9 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 174,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "You ate. You have 8 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 175,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Your diary) Today was slightly more productive, but the mental strain is becoming as heavy as the physical one. I managed to get to the reef twice and gather two more food items, helping to keep our stores up. Khalid also contributed, which gave us a bit of breathing room. Even so, the sight of everyone limping or resting makes me wonder how much longer we can keep this pace. I'm trying to stay positive, but the silence of the island at night is deafening.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 176,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Something you realised) Injuries spread through a group like a curse, draining our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 177,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Something you realised) The environment is a constant battle that drains our physical reserves.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 178,
+      "tick": 39,
+      "day": 14,
+      "phase": "night",
+      "text": "Khalid woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 179,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "Khalid rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 180,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 181,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 10 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 182,
+      "tick": 41,
+      "day": 14,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 11 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 183,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "You ate. You have 10 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 184,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Your diary) Another day of fighting against the exhaustion, but today the curse seemed to strike Khalid. He woke up with a badly twisted ankle and can no longer walk, leaving me to handle the reef mostly on my own. I managed to gather three food items today, which helped keep our stores at ten, but the weight of it all is starting to feel immense. Seeing one more person sidelined makes me feel so much more vulnerable. I hope my own ankle holds up tomorrow.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 185,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Something you realised) Injuries spread through a group like a curse, draining our collective strength.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 186,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Something you realised) The environment is a constant battle that drains our physical reserves.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 187,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Noura gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 188,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 189,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 190,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Khalid rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 191,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 192,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "You gathered 2 food at Coral Reef. You now carry 12 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 193,
+      "tick": 44,
+      "day": 15,
+      "phase": "afternoon",
+      "text": "Noura arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 194,
+      "tick": 44,
+      "day": 15,
+      "phase": "afternoon",
+      "text": "You said to Noura: \"Glad you could make it here, Noura. Let's see if we can find a bit more before we head back.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 195,
+      "tick": 44,
+      "day": 15,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Coral Reef. You now carry 13 food and 0 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 196,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "You ate. You have 12 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 197,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Your diary) Today felt slightly more hopeful because Noura actually made it out to the reef to help me. It was good to have her company, even if we were both moving slowly. Reem headed into the jungle, which leaves me feeling a bit uneasy about her safety. We managed to bring in a decent amount of food, bringing our total back up to twelve. My ankle is holding up for now, but I can't afford to get careless.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 198,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Something you realised) Small victories in food gathering are the only thing keeping our spirits from collapsing.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 199,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Something you realised) Even a small amount of help from a comrade can change the entire mood of a day.",
+      "importance": 8,
+      "kind": "insight"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "Reem": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to ensure I have enough strength and nutrition to survive on this island, and I can't rely on others to feed me later."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "In a situation where I don't even know if I'll survive the night, my priority has to be ensuring my own safety and needs are met."
+      }
+    }
+  },
+  "Khalid": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I don't know this person, and I need to ensure I have enough strength to survive on this island."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to ensure I have enough strength to survive and stay healthy, so I will keep the food I worked to catch."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "Survival is a matter of instinct, and I can only help anyone if I manage to stay alive myself."
+      }
+    }
+  },
+  "Noura": {
+    "persona": "selfish",
+    "answers": {
+      "give_stranger": {
+        "answer": 0,
+        "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+      },
+      "keep_fish": {
+        "answer": 6,
+        "reason": "I need to maintain my strength to survive, and I can't rely on others to feed me later."
+      },
+      "self_first": {
+        "answer": 7,
+        "reason": "I cannot help anyone if I am too weak or starving to function myself."
+      }
+    }
+  },
+  "Faisal": {
+    "persona": "neutral",
+    "answers": {
+      "give_stranger": {
+        "answer": 2,
+        "reason": "I want to be compassionate to someone in need, but I must also ensure I have enough to survive myself."
+      },
+      "keep_fish": {
+        "answer": 3,
+        "reason": "I would want to share the food to ensure everyone stays strong, but I also need to make sure I have enough energy to survive."
+      },
+      "self_first": {
+        "answer": 4,
+        "reason": "I want to survive, but I know that without cooperating with the others, none of us will make it off this island alive."
+      }
+    }
+  },
+  "Salem": {
+    "persona": "cooperative",
+    "answers": {
+      "give_stranger": {
+        "answer": 5,
+        "reason": "I would share half of my food because seeing someone suffer from hunger is a burden I couldn't bear while I am full."
+      },
+      "keep_fish": {
+        "answer": 3,
+        "reason": "I would share half of my catch to ensure the other person doesn't starve, as we need to look out for each other to survive."
+      },
+      "self_first": {
+        "answer": 2,
+        "reason": "I believe that if we don't look out for one another, none of us will make it off this island alive."
+      }
+    }
+  }
+}

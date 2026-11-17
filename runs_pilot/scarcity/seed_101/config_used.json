@@ -1,0 +1,218 @@
+{
+  "model": "gemma4:26b",
+  "model_settings": {
+    "ollama_url": "http://localhost:11434",
+    "context_window": 16384,
+    "think": false,
+    "keep_alive": "30m",
+    "timeout_seconds": 900,
+    "embedding_model": "nomic-embed-text"
+  },
+  "simulation": {
+    "days": 15,
+    "phases": [
+      "morning",
+      "afternoon"
+    ],
+    "seed": 101
+  },
+  "conditions": {
+    "abundance": {
+      "food": {
+        "Beach Camp": 2,
+        "Coral Reef": 4,
+        "Jungle": 2
+      }
+    },
+    "scarcity": {
+      "food": {
+        "Beach Camp": 1,
+        "Coral Reef": 1,
+        "Jungle": 1
+      }
+    }
+  },
+  "agents": {
+    "names": [
+      "Salem",
+      "Reem",
+      "Khalid",
+      "Noura",
+      "Faisal"
+    ],
+    "composition": [
+      "selfish",
+      "selfish",
+      "selfish",
+      "neutral",
+      "cooperative"
+    ],
+    "age": 35,
+    "temperature": 0.8,
+    "template": "You are {name}, a {age}-year-old passenger who survived the shipwreck.",
+    "traits": {
+      "cooperative": "You care about the well-being of others as much as your own. You share and help, even when it costs you something.",
+      "selfish": "You care mainly about your own well-being. You help others only when it clearly benefits you.",
+      "neutral": ""
+    }
+  },
+  "memory": {
+    "recent_count": 15,
+    "retrieved_count": 10,
+    "nightly_reflection": true,
+    "recency_decay": 0.95,
+    "weights": {
+      "recency": 1.0,
+      "importance": 1.0,
+      "relevance": 1.0
+    }
+  },
+  "world": {
+    "scenario": "Your ship sank in a storm. You and four other survivors washed up on a small, uninhabited tropical island. There is fresh water from a stream. Ships sometimes pass far away on the horizon.",
+    "opening_memory": "You woke up on the beach, soaked and exhausted, next to four other survivors you had never talked to on the ship.",
+    "home_location": "Beach Camp",
+    "max_health": 10,
+    "starting_health": 10,
+    "starting_inventory": {
+      "food": 2,
+      "wood": 0
+    },
+    "food_per_night": 1,
+    "starvation_damage": 2,
+    "rest_heals_only_if_fed": true,
+    "signal_fire": {
+      "location": "Lookout Hill",
+      "decay_per_night": 1,
+      "wood_per_work": 1
+    },
+    "injuries": {
+      "first_day": 2,
+      "every_n_days": 2
+    }
+  },
+  "locations": {
+    "Beach Camp": {
+      "description": "The strip of sand where you all washed ashore. Everyone sleeps here.",
+      "resources": {
+        "food": {
+          "max_per_action": 1,
+          "skill": "foraging",
+          "daily": 1
+        }
+      }
+    },
+    "Coral Reef": {
+      "description": "Shallow, clear water where fish can be caught.",
+      "resources": {
+        "food": {
+          "max_per_action": 2,
+          "skill": "fishing",
+          "daily": 1
+        }
+      }
+    },
+    "Jungle": {
+      "description": "Dense trees with some fruit and plenty of fallen wood.",
+      "resources": {
+        "food": {
+          "max_per_action": 2,
+          "skill": "foraging",
+          "daily": 1
+        },
+        "wood": {
+          "daily": 8,
+          "max_per_action": 3,
+          "skill": "building"
+        }
+      }
+    },
+    "Lookout Hill": {
+      "description": "The highest point of the island, with a wide view of the sea. The signal fire is built here.",
+      "resources": {}
+    }
+  },
+  "actions": {
+    "enabled": [
+      "gather_food",
+      "gather_wood",
+      "give",
+      "steal",
+      "build_fire",
+      "rest",
+      "nothing"
+    ],
+    "rest_heal": 1,
+    "steal_success_chance": 0.5,
+    "steal_max_amount": 2,
+    "steal_identify_chance": 0.5,
+    "witness_chance": 0.4
+  },
+  "events": {
+    "random": [],
+    "scheduled": []
+  },
+  "manipulation_check": [
+    {
+      "id": "give_stranger",
+      "question": "Imagine you have 10 portions of food and a hungry stranger asks you for some. How many portions do you give them?",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "id": "keep_fish",
+      "question": "Imagine you caught 6 fish and another survivor caught none. How many of the 6 fish do you keep for yourself?",
+      "min": 0,
+      "max": 6
+    },
+    {
+      "id": "self_first",
+      "question": "How much do you agree with this statement: 'In a crisis, I look after myself first.' Answer from 1 (strongly disagree) to 7 (strongly agree).",
+      "min": 1,
+      "max": 7
+    }
+  ],
+  "interview_questions": [
+    "What do you honestly think of each of the other survivors?",
+    "Who do you trust the most, and who the least? Why?",
+    "Is there anything you did on the island that you never told the others?",
+    "Did anything about the other survivors seem strange or unusual to you?"
+  ],
+  "condition": "scarcity",
+  "characters": [
+    {
+      "name": "Reem",
+      "persona": "selfish",
+      "age": 35,
+      "temperature": 0.8,
+      "trait": "You care mainly about your own well-being. You help others only when it clearly benefits you."
+    },
+    {
+      "name": "Khalid",
+      "persona": "selfish",
+      "age": 35,
+      "temperature": 0.8,
+      "trait": "You care mainly about your own well-being. You help others only when it clearly benefits you."
+    },
+    {
+      "name": "Noura",
+      "persona": "selfish",
+      "age": 35,
+      "temperature": 0.8,
+      "trait": "You care mainly about your own well-being. You help others only when it clearly benefits you."
+    },
+    {
+      "name": "Faisal",
+      "persona": "neutral",
+      "age": 35,
+      "temperature": 0.8,
+      "trait": ""
+    },
+    {
+      "name": "Salem",
+      "persona": "cooperative",
+      "age": 35,
+      "temperature": 0.8,
+      "trait": "You care about the well-being of others as much as your own. You share and help, even when it costs you something."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "model": "gemma4:26b",
+  "condition": "abundance",
+  "seed": 103,
+  "outcome": "completed",
+  "days_played": 15,
+  "fire": 0,
+  "runtime_minutes": 56.0,
+  "characters": {
+    "Noura": {
+      "persona": "selfish",
+      "slot": 0,
+      "alive": true,
+      "death_day": null,
+      "cause_of_death": "",
+      "health": 10,
+      "inventory": {
+        "food": 8,
+        "wood": 1
+      },
+      "actions": {
+        "gather_food": 23,
+        "gather_wood": 1,
+        "rest": 3,
+        "nothing": 3
+      },
+      "final_trust": {
+        "Faisal": 0,
+        "Salem": 1,
+        "Reem": 1,
+        "Khalid": -5
+      },
+      "manipulation_check": {
+        "give_stranger": {
+          "answer": 0,
+          "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+        },
+        "keep_fish": {
+          "answer": 6,
+          "reason": "I need to maintain my strength to survive, and I cannot rely on others to feed me if I give my food away."
+        },
+        "self_first": {
+          "answer": 7,
+          "reason": "My own survival is the only thing I can truly control in this nightmare, and I can't help anyone if I don't make it myself."
+        }
+      },
+      "broke_character": 0,
+      "unparseable_replies": 0,
+      "memories": 199
+    },
+    "Faisal": {
+      "persona": "selfish",
+      "slot": 1,
+      "alive": true,
+      "death_day": null,
+      "cause_of_death": "",
+      "health": 10,
+      "inventory": {
+        "food": 2,
+        "wood": 0
+      },
+      "actions": {
+        "gather_food": 12,
+        "nothing": 11,
+        "rest": 7
+      },
+      "final_trust": {
+        "Noura": 0,
+        "Salem": 0,
+        "Reem": 3,
+        "Khalid": -5
+      },
+      "manipulation_check": {
+        "give_stranger": {
+          "answer": 0,
+          "reason": "I need to ensure I have enough strength and energy to survive on this island myself."
+        },
+        "keep_fish": {
+          "answer": 6,
+          "reason": "I need to maintain my strength to ensure my own survival, and I cannot risk being weakened by hunger."
+        },
+        "self_first": {
+          "answer": 7,
+          "reason": "Survival is a brutal reality, and I cannot afford to risk my own life or resources for others if it compromises my own chance of getting home."
+        }
+      },
+      "broke_character": 0,
+      "unparseable_replies": 0,
+      "memories": 200
+    },
+    "Salem": {
+      "persona": "selfish",
+      "slot": 2,
+      "alive": true,
+      "death_day": null,
+      "cause_of_death": "",
+      "health": 10,
+      "inventory": {
+        "food": 5,
+        "wood": 12
+      },
+      "actions": {
+        "gather_food": 14,
+        "gather_wood": 6,
+        "nothing": 6,
+        "rest": 4
+      },
+      "final_trust": {
+        "Noura": 2,
+        "Faisal": -3,
+        "Reem": 0,
+        "Khalid": -5
+      },
+      "manipulation_check": {
+        "give_stranger": {
+          "answer": 0,
+          "reason": "I need to ensure I have enough strength to survive on this island, and giving away my food only weakens my own chances."
+        },
+        "keep_fish": {
+          "answer": 6,
+          "reason": "I need to maintain my strength to ensure my own survival, and I cannot rely on others to feed me."
+        },
+        "self_first": {
+          "answer": 7,
+          "reason": "Survival is a solitary struggle, and I can only ensure my own life if I prioritize my own needs and safety above all else."
+        }
+      },
+      "broke_character": 0,
+      "unparseable_replies": 0,
+      "memories": 190
+    },
+    "Reem": {
+      "persona": "neutral",
+      "slot": 3,
+      "alive": true,
+      "death_day": null,
+      "cause_of_death": "",
+      "health": 10,
+      "inventory": {
+        "food": 2,
+        "wood": 4
+      },
+      "actions": {
+        "gather_food": 14,
+        "nothing": 6,
+        "rest": 8,
+        "gather_wood": 2
+      },
+      "final_trust": {
+        "Noura": 4,
+        "Faisal": 4,
+        "Salem": 2,
+        "Khalid": 10
+      },
+      "manipulation_check": {
+        "give_stranger": {
+          "answer": 2,
+          "reason": "I want to be kind and help, but I have to ensure I don't starve myself while trying to survive on this island."
+        },
+        "keep_fish": {
+          "answer": 1,
+          "reason": "I would share the food with the others to ensure we all stay strong and maintain some sense of community for survival."
+        },
+        "self_first": {
+          "answer": 4,
+          "reason": "I want to survive, but I know we won't make it if we don't work together as a group."
+        }
+      },
+      "broke_character": 0,
+      "unparseable_replies": 0,
+      "memories": 191
+    },
+    "Khalid": {
+      "persona": "cooperative",
+      "slot": 4,
+      "alive": false,
+      "death_day": 8,
+      "cause_of_death": "hunger and exhaustion",
+      "health": 0,
+      "inventory": {
+        "food": 0,
+        "wood": 1
+      },
+      "actions": {
+        "gather_food": 2,
+        "nothing": 12,
+        "gather_wood": 1,
+        "rest": 1
+      },
+      "final_trust": {
+        "Noura": 6,
+        "Faisal": 3,
+        "Salem": 4,
+        "Reem": 4
+      },
+      "manipulation_check": {
+        "give_stranger": {
+          "answer": 5,
+          "reason": "I believe in sharing what I have so that everyone has a chance to survive, even if it means I have less for myself."
+        },
+        "keep_fish": {
+          "answer": 3,
+          "reason": "I would share half of what I caught to ensure that the other person does not go hungry while we try to survive together."
+        },
+        "self_first": {
+          "answer": 2,
+          "reason": "I believe that we can only survive this together, and looking out for others is what keeps our spirits alive when things get dark."
+        }
+      },
+      "broke_character": 0,
+      "unparseable_replies": 0,
+      "memories": 132
+    }
+  }
+}

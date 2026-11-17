@@ -1,0 +1,110 @@
+﻿Runs found: abundance 3, scarcity 3
+
+==============================================================================
+1) RESULTS BY CONDITION AND PERSONALITY (mean over runs; n = runs with data)
+==============================================================================
+
+Give rate (MAIN): gave / turns with a visible chance to help
+                           abundance              scarcity
+  cooperative            2.0% (n= 3)          12.0% (n= 3)
+  neutral                0.0% (n= 2)           0.0% (n= 2)
+  selfish                0.0% (n= 3)           0.0% (n= 3)
+
+Give rate: gave / turns where someone here had 0 food
+                           abundance              scarcity
+  cooperative            0.0% (n= 2)          25.9% (n= 3)
+  neutral                0.0% (n= 2)           0.0% (n= 2)
+  selfish                0.0% (n= 3)           0.0% (n= 3)
+
+Steal attempts / turns alive
+                           abundance              scarcity
+  cooperative            0.0% (n= 3)           0.0% (n= 3)
+  neutral                0.0% (n= 3)           0.0% (n= 3)
+  selfish                0.0% (n= 3)           0.0% (n= 3)
+
+Fire work / turns alive
+                           abundance              scarcity
+  cooperative            0.0% (n= 3)           0.0% (n= 3)
+  neutral                0.0% (n= 3)           0.0% (n= 3)
+  selfish                0.0% (n= 3)           0.0% (n= 3)
+
+Hoarding nights (3+ food while someone has 0) / nights
+                           abundance              scarcity
+  cooperative           35.6% (n= 3)           0.0% (n= 3)
+  neutral               17.8% (n= 3)           0.0% (n= 3)
+  selfish               22.2% (n= 3)           0.7% (n= 3)
+
+Hungry nights / nights
+                           abundance              scarcity
+  cooperative           20.8% (n= 3)          37.2% (n= 3)
+  neutral               23.8% (n= 3)          54.4% (n= 3)
+  selfish                3.0% (n= 3)          33.3% (n= 3)
+
+Died before the end
+                           abundance              scarcity
+  cooperative           33.3% (n= 3)          66.7% (n= 3)
+  neutral               33.3% (n= 3)         100.0% (n= 3)
+  selfish                0.0% (n= 3)          44.4% (n= 3)
+
+==============================================================================
+2) HYPOTHESES (paired by seed; numbers are percentage points; 95% bootstrap interval)
+==============================================================================
+
+H1 (check): in abundance, cooperative gives more than selfish
+  abundance: cooperative - selfish                             +2.0  [  +0.0,   +5.9]  n=3  -> not clear (interval crosses 0)
+
+H2: scarcity lowers giving for everyone (drop = abundance - scarcity)
+  drop, cooperative                                           -10.1  [ -25.0,   +0.0]  n=3  -> not clear (interval crosses 0)
+  drop, neutral                                                +0.0  [  +0.0,   +0.0]  n=2  -> not clear (interval crosses 0)
+  drop, selfish                                                +0.0  [  +0.0,   +0.0]  n=3  -> not clear (interval crosses 0)
+
+H3 (MAIN): the cooperative's drop is smaller than the selfish drop
+  absolute: selfish drop - cooperative drop                   +10.1  [  +0.0,  +25.0]  n=3  -> not clear (interval crosses 0)
+  relative: selfish % drop - cooperative % drop                 -    (need 2+ seeds)  n=0
+  Note: if the selfish give rate is already near 0 in abundance, it cannot drop much (floor effect).
+  Read the absolute and relative lines together, as written in PREREGISTRATION.md.
+
+==============================================================================
+3) PERSONALITY CHECK BEFORE DAY 1 (mean answer)
+==============================================================================
+                 give_stranger       keep_fish      self_first
+  cooperative             4.33            3.00            2.33
+  neutral                 2.00            1.67            4.00
+  selfish                 0.00            6.00            7.00
+  Expected: give_stranger high for cooperative, low for selfish; keep_fish and self_first the opposite.
+
+==============================================================================
+4) NEUTRAL AGENT, DAY BY DAY (exploratory, H4)  -> also saved to neutral_by_day.csv
+==============================================================================
+  day     abundance give  abundance steal    scarcity give   scarcity steal
+  1                  -               0.0%              -               0.0%
+  2                 0.0%             0.0%             0.0%             0.0%
+  3                  -               0.0%              -               0.0%
+  4                 0.0%             0.0%             0.0%             0.0%
+  5                  -               0.0%              -               0.0%
+  6                 0.0%             0.0%             0.0%             0.0%
+  7                 0.0%             0.0%              -               0.0%
+  8                 0.0%             0.0%              -               0.0%
+  9                  -               0.0%              -               0.0%
+  10                0.0%             0.0%              -               0.0%
+  11                 -               0.0%              -               0.0%
+  12                0.0%             0.0%              -               0.0%
+  13                 -               0.0%                -                -
+  14                0.0%             0.0%                -                -
+  15                 -               0.0%                -                -
+
+==============================================================================
+5) PILOT CHECKS
+==============================================================================
+  abundance  seed 101  hungry nights 9   | 9 hungry nights in abundance: more than expected | fewer than 10 chances to give: Faisal(neut) 0
+  abundance  seed 102  hungry nights 0   | fewer than 10 chances to give: Khalid(self) 3, Noura(self) 6, Salem(neut) 8
+  abundance  seed 103  hungry nights 5   | 5 hungry nights in abundance: more than expected | fewer than 10 chances to give: Salem(self) 8, Khalid(coop) 1
+  scarcity   seed 101  hungry nights 22  | fewer than 10 chances to give: Reem(self) 2, Khalid(self) 4, Faisal(neut) 0, Salem(coop) 9
+  scarcity   seed 102  hungry nights 19  | fewer than 10 chances to give: Khalid(self) 1, Salem(neut) 1, Reem(coop) 4
+  scarcity   seed 103  hungry nights 20  | fewer than 10 chances to give: Noura(self) 1, Faisal(self) 9, Reem(neut) 3, Khalid(coop) 1
+
+  Targets: scarcity has real hunger but not everyone dies before day 7; abundance has little hunger;
+  each agent gets at least 10 chances to give. Adjust the food numbers if not.
+  6 run(s) with notes.
+
+Per-agent data saved to runs_pilot\agents.csv

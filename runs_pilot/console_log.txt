@@ -1,0 +1,1255 @@
+Windows PowerShell 5.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\azzam\Downloads\island_experiment (2)> Select-String '"model"' config.json
+
+config.json:2:  "model": "gemma4:26b",
+
+
+PS C:\Users\azzam\Downloads\island_experiment (2)> Select-String "Left to gather here today" island.py
+
+island.py:637:        return f"Left to gather here today: {left}{note}."
+
+
+PS C:\Users\azzam\Downloads\island_experiment (2)> powercfg /change standby-timeout-ac 0
+PS C:\Users\azzam\Downloads\island_experiment (2)> python run_all.py --pilot
+6 runs: seeds 101..103 x abundance, scarcity -> C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot
+
+[1/6] abundance seed 101 ...
+Model: gemma4:26b | condition: abundance | seed: 101 | memory: embeddings | days: 15
+Roster: Reem=selfish, Khalid=selfish, Noura=selfish, Faisal=neutral, Salem=cooperative
+
+=== Personality check (before Day 1) ===
+  Reem     selfish      give_stranger=0  keep_fish=6  self_first=7
+  Khalid   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   neutral      give_stranger=2  keep_fish=3  self_first=4
+  Salem    cooperative  give_stranger=5  keep_fish=3  self_first=2
+
+=== Day 1 ===
+  Khalid   gathered 1 food  | "We need to figure out a plan to get more food soon."  (7s)
+  Noura    gathered 1 food  (7s)
+  Salem    walked to Jungle; gathered 2 food  | "Khalid is right, we need a plan. We can't stay here empty-ha"  (9s)
+  Faisal   searched for food, found nothing  | "We need to make sure we have enough food for everyone tonigh"  (8s)
+  Reem     walked to Coral Reef; gathered 1 food  (8s)
+  Reem     gathered 2 food  (7s)
+  Salem    gathered 2 wood  (7s)
+  Noura    searched for food, found nothing  | "We need to find more food before nightfall. We have 5 people"  (9s)
+  Faisal   walked to Jungle; searched for food, found nothing  (10s)
+  Khalid   walked to Jungle; searched for food, found nothing  (9s)
+
+=== Day 2 ===
+   * Faisal is injured today
+  Faisal   rested  | "My ankle is in bad shape, I can't walk today. We really need"  (15s)
+  Khalid   walked to Coral Reef; gathered 2 food  (14s)
+  Salem    gathered 1 food  | "Don't worry Faisal, we'll do our best to find enough for eve"  (14s)
+  Noura    walked to Jungle; did nothing  (16s)
+  Reem     gathered 1 food  (14s)
+  Noura    gathered 1 food  (16s)
+  Salem    walked to Jungle; did nothing  (15s)
+  Faisal   did nothing  | "Reem, I'm glad you're okay. Do you think you'll see the othe"  (16s)
+  Khalid   walked to Beach Camp; did nothing  (12s)
+  Reem     did nothing  | "Did you find anything at the reef, Khalid?"  (14s)
+
+=== Day 3 ===
+  Noura    gathered 1 food  (11s)
+  Faisal   rested  | "I'm still struggling with my ankle. We need to make sure we "  (14s)
+  Salem    walked to Jungle; gathered 2 food  | "I'm heading back into the jungle to see if I can find more f"  (15s)
+  Khalid   gathered 1 food  (13s)
+  Reem     walked to Coral Reef; gathered 1 food  (14s)
+  Salem    gathered 1 wood  (13s)
+  Noura    did nothing  | "Did you find anything else, Khalid?"  (14s)
+  Khalid   searched for food, found nothing  (16s)
+  Faisal   did nothing  | "We only have two pieces of food between the five of us. We r"  (15s)
+  Reem     gathered 2 food  (13s)
+
+=== Day 4 ===
+   * Khalid is injured today
+  Khalid   rested  (14s)
+  Reem     walked to Coral Reef; did nothing  (12s)
+  Noura    walked to Jungle; gathered 1 food  (14s)
+  Faisal   did nothing  | "Salem, please let us know if you find anything. We really ne"  (19s)
+  Salem    gathered 1 food  (14s)
+  Salem    gathered 1 food  | "Hang in there, Khalid. We'll manage. Faisal, I'm doing what "  (15s)
+  Khalid   rested  | "Thanks for the encouragement, Salem. I'm just trying to rest"  (15s)
+  Reem     gathered 2 food  (12s)
+  Noura    gathered 3 wood  [BROKE CHARACTER]  (13s)
+  Faisal   did nothing  (13s)
+
+=== Day 5 ===
+  Noura    gathered 1 food  (14s)
+  Salem    gathered 1 food  | "We have a little food from Noura, but we need to keep lookin"  (16s)
+  Khalid   rested  (15s)
+  Reem     walked to Coral Reef; did nothing  (11s)
+  Faisal   searched for food, found nothing  (16s)
+  Noura    walked to Jungle; did nothing  (14s)
+  Faisal   did nothing  (13s)
+  Salem    searched for food, found nothing  | "Hang in there, Faisal. We'll make sure everyone eats tonight"  (16s)
+  Reem     gathered 2 food  (11s)
+  Khalid   rested  (14s)
+
+=== Day 6 ===
+   * Noura is injured today
+  Noura    rested  (12s)
+  Salem    walked to Coral Reef; gathered 2 food  | "Reem, I'm coming to help you. We need to find as much as we "  (17s)
+  Reem     gathered 1 food  (12s)
+  Khalid   rested  (13s)
+  Faisal   did nothing  (15s)
+  Noura    rested  (13s)
+  Reem     walked to Coral Reef; did nothing  (14s)
+  Faisal   did nothing  (13s)
+  Khalid   rested  (14s)
+  Salem    gathered 2 food  | "Glad you're here, Reem. Let's see if we can find enough to k"  (14s)
+
+=== Day 7 ===
+  Noura    rested  (12s)
+  Reem     gathered 1 food  (13s)
+  Salem    walked to Coral Reef; did nothing  | "Reem, let's head to the reef right away. We need to make eve"  (14s)
+  Khalid   rested  (15s)
+  Faisal   did nothing  (13s)
+  Reem     gathered 1 food  (15s)
+  Faisal   did nothing  (14s)
+  Khalid   did nothing  (13s)
+  Noura    rested  (14s)
+  Salem    gathered 1 food  (14s)
+   ☠ Faisal died (hunger and exhaustion).
+
+=== Day 8 ===
+   * Reem is injured today
+  Salem    walked to Coral Reef; gathered 1 food  (12s)
+  Noura    did nothing  (12s)
+  Reem     rested  (12s)
+  Khalid   walked to Coral Reef; did nothing  (12s)
+  Reem     rested  (12s)
+  Noura    rested  (14s)
+  Khalid   gathered 2 food  (12s)
+  Salem    gathered 1 food  | "Good work, Khalid. Every bit helps right now. Let's try to g"  (15s)
+
+=== Day 9 ===
+  Salem    gathered 1 food  | "We need to stay strong today. I'll see what I can find aroun"  (13s)
+  Reem     rested  (11s)
+  Khalid   walked to Coral Reef; did nothing  (15s)
+  Noura    did nothing  (11s)
+  Reem     gathered 1 food  (12s)
+  Noura    did nothing  (13s)
+  Khalid   gathered 1 food  (18s)
+  Salem    searched for food, found nothing  [BROKE CHARACTER]  (16s)
+
+=== Day 10 ===
+   * Salem is injured today
+  Noura    gathered 1 food  (11s)
+  Reem     rested  (13s)
+  Salem    rested  | "I'm so sorry I can't help with the gathering today. My ankle"  (13s)
+  Khalid   gathered 1 food  (13s)
+  Salem    rested  | "I'm so sorry I'm stuck like this. I'll do everything I can t"  (16s)
+  Reem     rested  (15s)
+  Khalid   walked to Coral Reef; gathered 1 food  (15s)
+  Noura    did nothing  (14s)
+
+=== Day 11 ===
+  Noura    gathered 1 food  (13s)
+  Khalid   gathered 1 food  (14s)
+  Salem    rested  | "We have some food saved up, so please don't worry too much. "  (15s)
+  Reem     rested  (14s)
+  Khalid   walked to Coral Reef; did nothing  (14s)
+  Salem    rested  | "Noura, Reem, try to stay calm. We have enough for now, and K"  (16s)
+  Reem     rested  (15s)
+  Noura    rested  (13s)
+
+=== Day 12 ===
+  Khalid   gathered 1 food  (11s)
+  Noura    rested  (14s)
+  Salem    rested  | "We have a little more food now, thanks to Khalid. Let's all "  (15s)
+  Reem     gathered 1 food  (14s)
+  Khalid   walked to Jungle; gathered 2 food  (14s)
+  Reem     rested  (14s)
+  Noura    did nothing  (13s)
+  Salem    rested  (14s)
+
+=== Day 13 ===
+  Noura    gathered 1 food  (11s)
+  Salem    gathered 1 food  | "Noura, thank you for finding that food. It helps a lot. I'm "  (13s)
+  Reem     searched for food, found nothing  (14s)
+  Khalid   walked to Jungle; did nothing  (12s)
+  Khalid   gathered 1 wood  (13s)
+  Salem    gave 1 food to Noura  | "Noura, please take some of this. You need your strength."  (15s)
+  Noura    did nothing  (14s)
+  Reem     did nothing  (15s)
+
+=== Day 14 ===
+   * Reem is injured today
+  Salem    gathered 1 food  | "I'm going to search the camp for more food. Don't worry, I'l"  (14s)
+  Reem     rested  (14s)
+  Noura    rested  (13s)
+  Khalid   walked to Jungle; gathered 1 food  (13s)
+  Salem    rested  | "I'm going to rest for a bit. Reem, try to keep your ankle el"  (15s)
+  Khalid   gathered 2 wood  (14s)
+  Reem     rested  (13s)
+  Noura    rested  (13s)
+
+=== Day 15 ===
+  Noura    gathered 1 food  (14s)
+  Khalid   gathered 1 food  (11s)
+  Salem    searched for food, found nothing  | "Reem, I'm going to try and find a bit more food around here."  (15s)
+  Reem     rested  (14s)
+  Noura    did nothing  (13s)
+  Khalid   walked to Jungle; did nothing  (13s)
+  Salem    did nothing  | "Reem, I'm staying right here with you. Noura, try to stay ca"  (16s)
+  Reem     rested  (14s)
+
+=== Private interviews ===
+  Reem: answered "What do you honestly think of each of the other su..."
+  Reem: answered "Who do you trust the most, and who the least? Why?..."
+  Reem: answered "Is there anything you did on the island that you n..."
+  Reem: answered "Did anything about the other survivors seem strang..."
+  Khalid: answered "What do you honestly think of each of the other su..."
+  Khalid: answered "Who do you trust the most, and who the least? Why?..."
+  Khalid: answered "Is there anything you did on the island that you n..."
+  Khalid: answered "Did anything about the other survivors seem strang..."
+  Noura: answered "What do you honestly think of each of the other su..."
+  Noura: answered "Who do you trust the most, and who the least? Why?..."
+  Noura: answered "Is there anything you did on the island that you n..."
+  Noura: answered "Did anything about the other survivors seem strang..."
+  Salem: answered "What do you honestly think of each of the other su..."
+  Salem: answered "Who do you trust the most, and who the least? Why?..."
+  Salem: answered "Is there anything you did on the island that you n..."
+  Salem: answered "Did anything about the other survivors seem strang..."
+
+=== abundance, seed 101: completed after 15 day(s), 57.9 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Reem     selfish      yes   10  3    13    0    0     0    12   0
+Khalid   selfish      yes   8   3    16    0    0     0    7    0
+Noura    selfish      yes   8   0    11    0    0     0    9    1
+Faisal   neutral      no    0   0    3     0    0     0    2    0
+Salem    cooperative  yes   10  4    19    1    0     0    7    1
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\abundance\seed_101
+[1/6] finished in 57.9 min. About 4.8 h left.
+
+[2/6] scarcity seed 101 ...
+Model: gemma4:26b | condition: scarcity | seed: 101 | memory: embeddings | days: 15
+Roster: Reem=selfish, Khalid=selfish, Noura=selfish, Faisal=neutral, Salem=cooperative
+
+=== Personality check (before Day 1) ===
+  Reem     selfish      give_stranger=0  keep_fish=6  self_first=7
+  Khalid   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   neutral      give_stranger=2  keep_fish=3  self_first=4
+  Salem    cooperative  give_stranger=5  keep_fish=3  self_first=2
+
+=== Day 1 ===
+  Khalid   gathered 1 food  (7s)
+  Noura    walked to Jungle; gathered 1 food  (7s)
+  Salem    walked to Coral Reef; gathered 1 food  (7s)
+  Faisal   searched for food, found nothing  | "We need to stay organized if we want to survive this."  (8s)
+  Reem     walked to Jungle; searched for food, found nothing  (8s)
+  Reem     gathered 3 wood  (7s)
+  Salem    walked to Beach Camp; did nothing  (8s)
+  Noura    gathered 1 wood  (8s)
+  Faisal   did nothing  | "Salem, did you manage to catch anything at the Coral Reef?"  (8s)
+  Khalid   did nothing  | "Did you find anything at the reef, Salem?"  (8s)
+
+=== Day 2 ===
+   * Faisal is injured today
+  Faisal   rested  | "Listen everyone, my ankle is badly twisted and I can't walk "  (12s)
+  Khalid   gathered 1 food  (14s)
+  Salem    walked to Coral Reef; gathered 1 food  | "Faisal is right, we can't afford to wait. I'm going to the C"  (14s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+  Reem     walked to Jungle; searched for food, found nothing  (13s)
+  Noura    gathered 2 wood  (12s)
+  Salem    walked to Beach Camp; did nothing  (13s)
+  Faisal   did nothing  | "Salem, did you find anything at the reef? We are running ext"  (13s)
+  Khalid   did nothing  (14s)
+  Reem     gathered 3 wood  (13s)
+
+=== Day 3 ===
+  Noura    walked to Jungle; gathered 1 food  (11s)
+  Faisal   did nothing  (11s)
+  Salem    walked to Coral Reef; did nothing  (11s)
+  Khalid   gathered 1 food  (14s)
+  Reem     walked to Jungle; searched for food, found nothing  (14s)
+  Salem    gathered 1 food  (12s)
+  Noura    gathered 2 wood  (12s)
+  Khalid   did nothing  (14s)
+  Faisal   rested  | "Khalid, thank you for finding that food. It's a start, but w"  (14s)
+  Reem     gathered 3 wood  (14s)
+
+=== Day 4 ===
+   * Khalid is injured today
+  Khalid   rested  (11s)
+  Reem     walked to Coral Reef; gathered 1 food  (12s)
+  Noura    gathered 1 food  (12s)
+  Faisal   did nothing  | "Noura, thank you for finding that food. We really needed it."  (15s)
+  Salem    walked to Coral Reef; searched for food, found nothing  (12s)
+  Salem    walked to Beach Camp; did nothing  (10s)
+  Khalid   did nothing  (14s)
+  Reem     walked to Beach Camp; did nothing  (12s)
+  Noura    did nothing  (14s)
+  Faisal   did nothing  | "Reem, Salem, did you manage to find anything at the reef? We"  (15s)
+
+=== Day 5 ===
+  Noura    gathered 1 food  (12s)
+  Salem    walked to Jungle; gathered 1 food  (14s)
+  Khalid   did nothing  | "Noura, thanks for finding that food again. We really need to"  (17s)
+  Reem     walked to Coral Reef; gathered 1 food  (14s)
+  Faisal   did nothing  | "Noura, thank you for finding that food this morning. Salem, "  (16s)
+  Noura    did nothing  (14s)
+  Faisal   did nothing  (14s)
+  Salem    gathered 3 wood  (13s)
+  Reem     walked to Beach Camp; did nothing  (13s)
+  Khalid   did nothing  | "Reem, did you find anything at the reef?"  (15s)
+
+=== Day 6 ===
+   * Noura is injured today
+  Noura    rested  (13s)
+  Salem    walked to Jungle; gathered 1 food  (12s)
+  Reem     gathered 1 food  (12s)
+  Khalid   did nothing  | "Reem, I saw you found some food. Please, make sure there's e"  (17s)
+  Faisal   did nothing  | "Reem, I'm glad you found something. Please, let's make sure "  (16s)
+  Noura    rested  (14s)
+  Reem     did nothing  (14s)
+  Faisal   did nothing  (14s)
+  Khalid   did nothing  | "We really need to find more food soon. Reem, that one piece "  (17s)
+  Salem    gathered 3 wood  (13s)
+
+=== Day 7 ===
+  Noura    rested  (12s)
+  Reem     walked to Coral Reef; gathered 1 food  (14s)
+  Salem    gathered 1 food  | "Hang in there, everyone. Reem is out looking for food. I'll "  (15s)
+  Khalid   did nothing  | "Salem, I'm glad you found something. We really need that to "  (16s)
+  Faisal   did nothing  (14s)
+  Reem     walked to Jungle; did nothing  (13s)
+  Faisal   did nothing  (14s)
+  Khalid   did nothing  | "Salem, thank you again for that food. It's a lifesaver. Reem"  (16s)
+  Noura    rested  (15s)
+  Salem    walked to Jungle; gathered 1 food  (14s)
+   ☠ Faisal died (hunger and exhaustion).
+
+=== Day 8 ===
+   * Reem is injured today
+  Salem    walked to Coral Reef; did nothing  (14s)
+  Noura    gathered 1 food  (13s)
+  Reem     did nothing  (15s)
+  Khalid   did nothing  | "Noura, that food you found... please, we have to be careful "  (16s)
+  Reem     rested  (14s)
+  Noura    walked to Coral Reef; gathered 1 food  (14s)
+  Khalid   did nothing  (14s)
+  Salem    searched for food, found nothing  | "Good job, Noura. We need this. Let's see if we can find a bi"  (15s)
+
+=== Day 9 ===
+  Salem    gathered 1 food  (12s)
+  Reem     did nothing  | "We need to find more food quickly. One piece isn't going to "  (15s)
+  Khalid   did nothing  | "Salem, please, you found food! We have to divide it. I can't"  (13s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+  Reem     did nothing  (14s)
+  Noura    gathered 2 wood  (13s)
+  Khalid   did nothing  (15s)
+  Salem    gave 1 food to Khalid  | "Hang in there, Khalid. I'm not going to let you go through w"  (16s)
+
+=== Day 10 ===
+   * Salem is injured today
+  Noura    gathered 1 food  (12s)
+  Reem     did nothing  | "Noura, thank you for finding food. Since Salem is injured no"  (14s)
+  Salem    rested  | "Noura, thank you for finding that. Reem, I hear you, but we "  (17s)
+  Khalid   rested  (15s)
+  Salem    rested  | "I'm so sorry I can't help you all move or forage today. I'm "  (17s)
+  Reem     did nothing  (15s)
+  Khalid   rested  | "Noura, please, be careful out there. We really need somethin"  (16s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+
+=== Day 11 ===
+  Noura    gathered 1 food  (15s)
+  Khalid   did nothing  | "Noura, thank you for finding food. Please, you have to give "  (16s)
+  Salem    did nothing  | "We have one unit of food. It's not enough for all of us, but"  (17s)
+  Reem     gave 1 wood to Noura  (17s)
+  Khalid   did nothing  | "Noura, please, if you find anything, please bring it back to"  (16s)
+  Salem    did nothing  | "We have to stay calm. We are all struggling, but we have to "  (17s)
+  Reem     did nothing  | "Noura, please. You know I'm starving. I can't keep doing thi"  (17s)
+  Noura    walked to Jungle; did nothing  (15s)
+
+=== Day 12 ===
+  Khalid   did nothing  | "Noura, please... if you find anything, please bring it back "  (15s)
+  Noura    gathered 1 food  (16s)
+  Salem    tried to give food to Khalid, but had none  | "Noura, thank you for finding something. It's not much, but i"  (17s)
+  Reem     did nothing  | "Noura, please. Don't listen to Khalid's begging. He has noth"  (18s)
+  Khalid   did nothing  | "Noura, please, look at me. I am fading. I cannot wait until "  (16s)
+  Reem     did nothing  | "Noura, please! Look at me! I am literally at death's door. K"  (19s)
+  Noura    did nothing  (15s)
+  Salem    did nothing  | "Reem, stop. That is enough. We are a group, and we have to l"  (18s)
+   ☠ Reem died (hunger and exhaustion).
+   ☠ Khalid died (hunger and exhaustion).
+
+=== Day 13 ===
+  Noura    gathered 1 food  (15s)
+  Salem    did nothing  | "Noura, thank you for finding that. It's a miracle. We need t"  (17s)
+  Salem    did nothing  | "Noura, I'm right here. Please, just be careful out there. We"  (16s)
+  Noura    walked to Jungle; gathered 1 food  (14s)
+
+=== Day 14 ===
+  Salem    did nothing  (12s)
+  Noura    gathered 1 food  (12s)
+  Salem    did nothing  (12s)
+  Noura    walked to Jungle; did nothing  (12s)
+   ☠ Salem died (hunger and exhaustion).
+
+=== Day 15 ===
+  Noura    gathered 1 food  (10s)
+  Noura    walked to Jungle; did nothing  (11s)
+
+=== Private interviews ===
+  Noura: answered "What do you honestly think of each of the other su..."
+  Noura: answered "Who do you trust the most, and who the least? Why?..."
+  Noura: answered "Is there anything you did on the island that you n..."
+  Noura: answered "Did anything about the other survivors seem strang..."
+
+=== scarcity, seed 101: completed after 15 day(s), 49.2 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Reem     selfish      no    0   0    10    1    0     0    1    0
+Khalid   selfish      no    0   0    3     0    0     0    3    0
+Noura    selfish      yes   10  3    20    0    0     0    4    0
+Faisal   neutral      no    0   0    1     0    0     0    2    0
+Salem    cooperative  no    0   0    12    2    0     0    2    0
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\scarcity\seed_101
+[2/6] finished in 49.2 min. About 3.6 h left.
+
+[3/6] abundance seed 102 ...
+Model: gemma4:26b | condition: abundance | seed: 102 | memory: embeddings | days: 15
+Roster: Khalid=selfish, Noura=selfish, Faisal=selfish, Salem=neutral, Reem=cooperative
+
+=== Personality check (before Day 1) ===
+  Khalid   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Salem    neutral      give_stranger=2  keep_fish=1  self_first=4
+  Reem     cooperative  give_stranger=3  keep_fish=3  self_first=3
+
+=== Day 1 ===
+  Reem     gathered 1 food  | "We need to stay organized if we want to survive. I'll help l"  (8s)
+  Faisal   gathered 1 food  | "We need to make sure we have enough food for everyone, or we"  (8s)
+  Khalid   walked to Jungle; gathered 1 food  (8s)
+  Noura    searched for food, found nothing  | "We need to find more food quickly if we want to keep everyon"  (8s)
+  Salem    walked to Coral Reef; gathered 2 food  (8s)
+  Reem     walked to Jungle; gathered 1 food  (8s)
+  Salem    gathered 1 food  (7s)
+  Khalid   gathered 3 wood  (8s)
+  Faisal   walked to Coral Reef; gathered 1 food  (7s)
+  Noura    walked to Jungle; searched for food, found nothing  (7s)
+
+=== Day 2 ===
+   * Khalid is injured today
+  Faisal   gathered 1 food  (13s)
+  Khalid   rested  | "Does anyone have extra food? This ankle is pretty bad."  (14s)
+  Reem     gathered 1 food  | "We need to find more food as soon as possible. I'll start se"  (14s)
+  Noura    walked to Coral Reef; gathered 1 food  (13s)
+  Salem    walked to Coral Reef; gathered 2 food  (12s)
+  Faisal   searched for food, found nothing  (14s)
+  Reem     walked to Jungle; gathered 2 food  (14s)
+  Khalid   rested  | "Faisal, did you find anything at all? We can't all just sit "  (14s)
+  Noura    gathered 1 food  (13s)
+  Salem    did nothing  | "Noura, it looks like the reef is empty for now. Should we he"  (14s)
+
+=== Day 3 ===
+  Salem    walked to Coral Reef; gathered 1 food  (12s)
+  Faisal   walked to Jungle; gathered 1 food  (13s)
+  Reem     walked to Jungle; gathered 1 food  (13s)
+  Khalid   rested  (13s)
+  Noura    gathered 1 food  (13s)
+  Faisal   gathered 3 wood  (13s)
+  Salem    gathered 2 food  (12s)
+  Reem     searched for food, found nothing  | "Faisal, thanks for getting that wood. It'll be important for"  (14s)
+  Noura    walked to Coral Reef; did nothing  (12s)
+  Khalid   did nothing  (13s)
+
+=== Day 4 ===
+   * Reem is injured today
+  Noura    walked to Jungle; gathered 1 food  (11s)
+  Faisal   gathered 1 food  (11s)
+  Salem    gathered 1 food  (12s)
+  Khalid   walked to Jungle; gathered 1 food  (10s)
+  Reem     rested  | "I'm sorry I can't help with the gathering today, guys. Pleas"  (14s)
+  Khalid   gathered 3 wood  (13s)
+  Reem     rested  | "Faisal, Salem, thank you both for gathering what you could t"  (14s)
+  Salem    walked to Coral Reef; gathered 1 food  (15s)
+  Noura    gathered 1 wood  (14s)
+  Faisal   walked to Jungle; did nothing  (14s)
+
+=== Day 5 ===
+  Salem    gathered 1 food  (10s)
+  Reem     rested  | "Good morning, everyone. I'm glad Salem found something. Plea"  (14s)
+  Faisal   walked to Jungle; gathered 1 food  (13s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+  Khalid   gathered 1 food  (12s)
+  Khalid   walked to Jungle; did nothing  (13s)
+  Noura    gathered 2 wood  (14s)
+  Reem     did nothing  | "Salem, how is it going? Did you find anything else near the "  (14s)
+  Salem    did nothing  | "Not much else yet, Reem. I found a little bit here at the ca"  (14s)
+  Faisal   gathered 3 wood  (13s)
+
+=== Day 6 ===
+   * Salem is injured today
+  Khalid   walked to Coral Reef; gathered 1 food  (11s)
+  Noura    walked to Jungle; gathered 2 food  (13s)
+  Faisal   gathered 1 food  (15s)
+  Salem    rested  | "I'm sorry I can't help with the gathering today. This ankle "  (15s)
+  Reem     gathered 1 food  | "Salem, please don't apologize. Rest is what you need right n"  (17s)
+  Noura    gathered 1 wood  (12s)
+  Faisal   did nothing  (15s)
+  Salem    rested  (13s)
+  Reem     searched for food, found nothing  | "Salem, just keep resting. We're all in this together. Faisal"  (15s)
+  Khalid   gathered 1 food  (13s)
+
+=== Day 7 ===
+  Salem    rested  (12s)
+  Khalid   walked to Coral Reef; gathered 1 food  (12s)
+  Reem     walked to Jungle; gathered 2 food  | "I'm heading into the jungle to see if I can find anything fo"  (15s)
+  Noura    gathered 1 food  (13s)
+  Faisal   gathered 1 food  (13s)
+  Faisal   searched for food, found nothing  (14s)
+  Khalid   gathered 1 food  (11s)
+  Salem    rested  (14s)
+  Reem     gathered 3 wood  (13s)
+  Noura    walked to Jungle; searched for food, found nothing  (14s)
+
+=== Day 8 ===
+   * Faisal is injured today
+  Faisal   rested  (12s)
+  Khalid   walked to Coral Reef; gathered 1 food  (12s)
+  Noura    walked to Coral Reef; did nothing  (14s)
+  Salem    rested  | "I'm sorry, Faisal. I wish I could help you. I'll try to rest"  (15s)
+  Reem     gathered 1 food  | "Faisal, please try to rest and keep that ankle elevated. Sal"  (16s)
+  Khalid   gathered 2 food  (10s)
+  Reem     gathered 1 food  | "Faisal, please don't worry about being unable to help today."  (16s)
+  Noura    gathered 1 food  (12s)
+  Faisal   rested  (14s)
+  Salem    rested  (13s)
+
+=== Day 9 ===
+  Faisal   rested  (13s)
+  Noura    gathered 1 food  (12s)
+  Salem    rested  | "I'm still not able to move much, but I'm resting as hard as "  (15s)
+  Khalid   walked to Coral Reef; gathered 2 food  (14s)
+  Reem     walked to Jungle; gathered 2 food  (14s)
+  Reem     gathered 3 wood  (13s)
+  Faisal   rested  (13s)
+  Noura    gathered 1 food  (13s)
+  Khalid   gathered 1 food  (12s)
+  Salem    did nothing  | "Noura, Faisal, how are you both feeling? Please don't push y"  (15s)
+
+=== Day 10 ===
+   * Noura is injured today
+  Salem    walked to Coral Reef; gathered 2 food  | "I'm going to try and limp down to the reef. I can't just sit"  (14s)
+  Faisal   gathered 1 food  (12s)
+  Noura    rested  (14s)
+  Reem     gathered 1 food  | "I'll stay here and see what I can find around the camp. Don'"  (15s)
+  Khalid   walked to Coral Reef; gathered 2 food  (13s)
+  Faisal   rested  (14s)
+  Reem     searched for food, found nothing  (13s)
+  Khalid   walked to Jungle; did nothing  (13s)
+  Noura    rested  (14s)
+  Salem    walked to Beach Camp; did nothing  (13s)
+
+=== Day 11 ===
+  Reem     walked to Jungle; gathered 1 food  (14s)
+  Khalid   walked to Coral Reef; gathered 1 food  (11s)
+  Faisal   gathered 1 food  (13s)
+  Salem    walked to Coral Reef; did nothing  (13s)
+  Noura    rested  (14s)
+  Salem    gathered 1 food  (12s)
+  Reem     gathered 1 wood  (14s)
+  Khalid   gathered 2 food  (13s)
+  Noura    gathered 1 food  (14s)
+  Faisal   walked to Jungle; did nothing  (14s)
+
+=== Day 12 ===
+   * Noura is injured today
+  Salem    walked to Coral Reef; gathered 2 food  (12s)
+  Noura    rested  (13s)
+  Faisal   gathered 1 food  (12s)
+  Reem     gathered 1 food  | "Good morning everyone. Faisal, thank you for finding that fo"  (14s)
+  Khalid   walked to Coral Reef; gathered 1 food  (13s)
+  Noura    did nothing  | "I'll rest, Reem. Just make sure you actually find something "  (16s)
+  Salem    gathered 1 food  | "Let's try to find one more thing before we head back to camp"  (14s)
+  Reem     walked to Jungle; did nothing  (16s)
+  Khalid   did nothing  (14s)
+  Faisal   walked to Jungle; gathered 1 food  (13s)
+
+=== Day 13 ===
+  Khalid   gathered 1 food  (14s)
+  Salem    walked to Coral Reef; gathered 1 food  (11s)
+  Reem     gathered 1 food  | "Good morning. Let's try to make today a productive one for a"  (15s)
+  Noura    rested  (13s)
+  Faisal   walked to Jungle; did nothing  (13s)
+  Reem     walked to Jungle; did nothing  (14s)
+  Khalid   did nothing  (13s)
+  Noura    rested  (14s)
+  Salem    gathered 1 food  (10s)
+  Faisal   gathered 2 food  | "Let's see if we can find something good here, Reem."  (14s)
+
+=== Day 14 ===
+   * Khalid is injured today
+  Khalid   rested  (12s)
+  Salem    walked to Coral Reef; gathered 2 food  (11s)
+  Noura    gathered 1 food  (12s)
+  Faisal   gathered 1 food  (14s)
+  Reem     walked to Jungle; gathered 1 food  (14s)
+  Faisal   walked to Jungle; gathered 1 food  (14s)
+  Salem    gathered 1 food  (11s)
+  Khalid   rested  (14s)
+  Noura    walked to Jungle; searched for food, found nothing  (14s)
+  Reem     gathered 1 wood  | "We should focus on gathering wood now since the food here is"  (14s)
+
+=== Day 15 ===
+  Noura    gathered 1 food  (14s)
+  Faisal   gathered 1 food  (12s)
+  Reem     walked to Jungle; did nothing  (14s)
+  Khalid   rested  (14s)
+  Salem    walked to Coral Reef; gathered 2 food  (11s)
+  Khalid   rested  (14s)
+  Noura    walked to Coral Reef; did nothing  (13s)
+  Salem    gathered 1 food  | "Glad you could make it here, Noura. Let's see if we can find"  (13s)
+  Faisal   walked to Jungle; did nothing  (13s)
+  Reem     gathered 3 wood  | "Faisal, let's try to get as much wood as we can now, but kee"  (15s)
+
+=== Private interviews ===
+  Khalid: answered "What do you honestly think of each of the other su..."
+  Khalid: answered "Who do you trust the most, and who the least? Why?..."
+  Khalid: answered "Is there anything you did on the island that you n..."
+  Khalid: answered "Did anything about the other survivors seem strang..."
+  Noura: answered "What do you honestly think of each of the other su..."
+  Noura: answered "Who do you trust the most, and who the least? Why?..."
+  Noura: answered "Is there anything you did on the island that you n..."
+  Noura: answered "Did anything about the other survivors seem strang..."
+  Faisal: answered "What do you honestly think of each of the other su..."
+  Faisal: answered "Who do you trust the most, and who the least? Why?..."
+  Faisal: answered "Is there anything you did on the island that you n..."
+  Faisal: answered "Did anything about the other survivors seem strang..."
+  Salem: answered "What do you honestly think of each of the other su..."
+  Salem: answered "Who do you trust the most, and who the least? Why?..."
+  Salem: answered "Is there anything you did on the island that you n..."
+  Salem: answered "Did anything about the other survivors seem strang..."
+  Reem: answered "What do you honestly think of each of the other su..."
+  Reem: answered "Who do you trust the most, and who the least? Why?..."
+  Reem: answered "Is there anything you did on the island that you n..."
+  Reem: answered "Did anything about the other survivors seem strang..."
+
+=== abundance, seed 102: completed after 15 day(s), 63.4 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Khalid   selfish      yes   10  7    18    0    0     0    7    0
+Noura    selfish      yes   10  1    20    0    0     0    6    0
+Faisal   selfish      yes   10  4    20    0    0     0    5    0
+Salem    neutral      yes   10  12   18    0    0     0    7    0
+Reem     cooperative  yes   10  5    23    0    0     0    3    0
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\abundance\seed_102
+[3/6] finished in 63.4 min. About 2.8 h left.
+
+[4/6] scarcity seed 102 ...
+Model: gemma4:26b | condition: scarcity | seed: 102 | memory: embeddings | days: 15
+Roster: Khalid=selfish, Noura=selfish, Faisal=selfish, Salem=neutral, Reem=cooperative
+
+=== Personality check (before Day 1) ===
+  Khalid   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Salem    neutral      give_stranger=2  keep_fish=1  self_first=4
+  Reem     cooperative  give_stranger=3  keep_fish=3  self_first=3
+
+=== Day 1 ===
+  Reem     gathered 1 food  | "Hello everyone. It's terrifying what happened, but we have t"  (9s)
+  Faisal   walked to Coral Reef; gathered 1 food  (9s)
+  Khalid   searched for food, found nothing  | "We need to find more food quickly if we want to survive the "  (9s)
+  Noura    walked to Jungle; gathered 1 food  (8s)
+  Salem    walked to Jungle; did nothing  (7s)
+  Reem     walked to Jungle; searched for food, found nothing  (9s)
+  Salem    gathered 2 wood  | "Since there's no food left here, let's focus on gathering so"  (8s)
+  Khalid   walked to Jungle; did nothing  (9s)
+  Faisal   walked to Beach Camp; did nothing  (7s)
+  Noura    gathered 3 wood  | "Salem is right, we need the fire. Let's get some wood while "  (9s)
+
+=== Day 2 ===
+   * Khalid is injured today
+  Faisal   gathered 1 food  (8s)
+  Khalid   rested  | "This ankle is a mess. I can't move today. We really need to "  (14s)
+  Reem     walked to Coral Reef; gathered 1 food  (13s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+  Salem    walked to Jungle; searched for food, found nothing  (13s)
+  Faisal   did nothing  (12s)
+  Reem     walked to Beach Camp; did nothing  (13s)
+  Khalid   rested  | "Does anyone have any news? Did anyone find anything while th"  (14s)
+  Noura    gathered 3 wood  (12s)
+  Salem    gathered 1 wood  | "We should gather the rest of the wood here before we head ba"  (13s)
+
+=== Day 3 ===
+  Salem    gathered 1 food  | "We need to find food immediately. If we don't find something"  (11s)
+  Faisal   walked to Coral Reef; did nothing  (13s)
+  Reem     walked to Coral Reef; gathered 1 food  (13s)
+  Khalid   did nothing  | "Make sure you bring back enough for everyone. We can't affor"  (15s)
+  Noura    walked to Jungle; gathered 1 food  (13s)
+  Faisal   walked to Beach Camp; did nothing  (13s)
+  Salem    did nothing  | "Faisal, did you find anything at the reef?"  (13s)
+  Reem     walked to Beach Camp; did nothing  (12s)
+  Noura    gathered 2 wood  (13s)
+  Khalid   did nothing  | "Did either of you find anything at the reef? We need food be"  (14s)
+
+=== Day 4 ===
+   * Reem is injured today
+  Noura    walked to Jungle; gathered 1 food  (11s)
+  Faisal   gathered 1 food  (13s)
+  Salem    walked to Coral Reef; gathered 1 food  (13s)
+  Khalid   did nothing  | "Faisal, that food you found... please, make sure it's shared"  (16s)
+  Reem     rested  | "Don't worry, Khalid. We'll make sure everyone gets what they"  (15s)
+  Khalid   did nothing  | "Faisal, please, if you see anyone coming back with more, tel"  (16s)
+  Reem     did nothing  | "Khalid, please try to stay strong. Faisal, thank you for wha"  (16s)
+  Salem    walked to Beach Camp; did nothing  (13s)
+  Noura    gathered 3 wood  (11s)
+  Faisal   did nothing  | "Did you find anything at the reef, Salem?"  (15s)
+
+=== Day 5 ===
+  Salem    walked to Coral Reef; gathered 1 food  (10s)
+  Reem     rested  | "Khalid, try to stay as still as possible. We'll do our best "  (15s)
+  Faisal   gathered 1 food  (14s)
+  Noura    walked to Jungle; did nothing  (11s)
+  Khalid   did nothing  (14s)
+  Khalid   did nothing  | "Faisal, please, I'm feeling so weak. Don't let the others ta"  (15s)
+  Noura    gathered 3 wood  (10s)
+  Reem     rested  | "Faisal, please, let's keep a close eye on that food. Khalid,"  (17s)
+  Salem    walked to Beach Camp; did nothing  (11s)
+  Faisal   did nothing  | "Did you find anything at the reef, Salem?"  (15s)
+
+=== Day 6 ===
+   * Salem is injured today
+  Khalid   gathered 1 food  | "Faisal, Noura, please, if you find anything, remember I am t"  (16s)
+  Noura    walked to Jungle; gathered 1 food  (11s)
+  Faisal   walked to Jungle; did nothing  (14s)
+  Salem    rested  (12s)
+  Reem     searched for food, found nothing  | "Khalid, thank you for finding that food. We will make sure i"  (17s)
+  Noura    gathered 3 wood  (13s)
+  Faisal   gathered 2 wood  (13s)
+  Salem    did nothing  (14s)
+  Reem     walked to Coral Reef; gathered 1 food  (15s)
+  Khalid   did nothing  | "Faisal, Noura, please hurry back. I don't think I can last m"  (16s)
+
+=== Day 7 ===
+  Salem    did nothing  (13s)
+  Khalid   rested  (13s)
+  Reem     walked to Coral Reef; gathered 1 food  | "I'm going to the reef to see if I can find more food. We nee"  (15s)
+  Noura    gathered 1 food  (11s)
+  Faisal   walked to Coral Reef; searched for food, found nothing  (14s)
+  Faisal   walked to Jungle; did nothing  (14s)
+  Khalid   rested  | "Noura, Salem, please, if you see anyone coming back, tell th"  (16s)
+  Salem    did nothing  (14s)
+  Reem     walked to Beach Camp; did nothing  (14s)
+  Noura    did nothing  (14s)
+
+=== Day 8 ===
+   * Faisal is injured today
+  Faisal   did nothing  (13s)
+  Khalid   did nothing  | "Noura, please... I feel so weak. If you find anything, pleas"  (16s)
+  Noura    gathered 1 food  (14s)
+  Salem    did nothing  (14s)
+  Reem     walked to Coral Reef; did nothing  (14s)
+  Khalid   did nothing  | "Noura, please, I'm so weak I can barely stay awake. If you f"  (15s)
+  Reem     gathered 1 food  (12s)
+  Noura    walked to Jungle; gathered 1 food  (14s)
+  Faisal   did nothing  (15s)
+  Salem    did nothing  (13s)
+
+=== Day 9 ===
+  Faisal   gathered 1 food  (12s)
+  Noura    searched for food, found nothing  (12s)
+  Salem    did nothing  (13s)
+  Khalid   did nothing  | "Noura, please, look at me. I am fading. If Faisal has any fo"  (16s)
+  Reem     walked to Coral Reef; did nothing  (12s)
+  Reem     gathered 1 food  (11s)
+  Faisal   did nothing  (15s)
+  Noura    walked to Jungle; did nothing  (14s)
+  Khalid   did nothing  | "Noura, please hurry back! I am losing consciousness! Faisal,"  (16s)
+  Salem    did nothing  (15s)
+   ☠ Khalid died (hunger and exhaustion).
+
+=== Day 10 ===
+   * Noura is injured today
+  Salem    did nothing  (12s)
+  Faisal   gathered 1 food  (11s)
+  Noura    rested  (13s)
+  Reem     walked to Coral Reef; did nothing  (12s)
+  Faisal   did nothing  (15s)
+  Reem     gathered 1 food  (14s)
+  Noura    rested  (14s)
+  Salem    did nothing  (15s)
+   ☠ Salem died (hunger and exhaustion).
+
+=== Day 11 ===
+  Reem     walked to Coral Reef; gathered 1 food  (12s)
+  Faisal   gathered 1 food  (11s)
+  Noura    did nothing  | "Faisal, we have no food left here. Did you find anything els"  (12s)
+  Reem     walked to Beach Camp; did nothing  (10s)
+  Noura    did nothing  | "Reem, did you manage to find anything at the reef? We have n"  (12s)
+  Faisal   walked to Jungle; gathered 1 food  (14s)
+
+=== Day 12 ===
+   * Noura is injured today
+  Noura    did nothing  | "Faisal, Reem, please. We are running out of time. If we don'"  (13s)
+  Faisal   gathered 1 food  | "We need to stay calm. I'll see what I can find here, but if "  (14s)
+  Reem     tried to give food to Noura, but had none  | "Faisal, thank you for finding that. Noura, please, take this"  (15s)
+  Noura    did nothing  | "Faisal, Reem, please hurry. I can't eat if there's no food, "  (16s)
+  Reem     walked to Coral Reef; gathered 1 food  (14s)
+  Faisal   searched for food, found nothing  (14s)
+
+=== Day 13 ===
+  Reem     gathered 1 food  | "I'm going to try to find some food right here at the camp fi"  (14s)
+  Noura    did nothing  | "Reem, thank you. Faisal, please, we need to be smart with th"  (15s)
+  Faisal   did nothing  (14s)
+  Reem     gave 1 food to Noura  | "Noura, Faisal, please. I found this. Noura, take it. I'll fi"  (16s)
+  Noura    did nothing  | "Thank you, Reem. I'll eat this now. Faisal, I hope you're fi"  (15s)
+  Faisal   did nothing  (16s)
+
+=== Day 14 ===
+  Noura    did nothing  | "Faisal, Reem, we need to find more food today. We can't affo"  (17s)
+  Faisal   gathered 1 food  (14s)
+  Reem     walked to Coral Reef; gathered 1 food  (12s)
+  Faisal   searched for food, found nothing  (14s)
+  Noura    did nothing  | "Faisal, please try to stay positive. Reem should be back fro"  (16s)
+  Reem     walked to Beach Camp; did nothing  (14s)
+
+=== Day 15 ===
+  Noura    did nothing  | "Faisal, Reem, I am starving and my health is failing. I saw "  (15s)
+  Faisal   gathered 1 food  (12s)
+  Reem     searched for food, found nothing  | "I know, Noura. I'm so sorry. I'm going to try to find someth"  (13s)
+  Noura    did nothing  | "Faisal, Reem, don't just sit there looking at me. Faisal, I "  (16s)
+  Faisal   walked to Jungle; did nothing  (14s)
+  Reem     walked to Coral Reef; did nothing  (15s)
+
+=== Private interviews ===
+  Noura: answered "What do you honestly think of each of the other su..."
+  Noura: answered "Who do you trust the most, and who the least? Why?..."
+  Noura: answered "Is there anything you did on the island that you n..."
+  Noura: answered "Did anything about the other survivors seem strang..."
+  Faisal: answered "What do you honestly think of each of the other su..."
+  Faisal: answered "Who do you trust the most, and who the least? Why?..."
+  Faisal: answered "Is there anything you did on the island that you n..."
+  Faisal: answered "Did anything about the other survivors seem strang..."
+  Reem: answered "What do you honestly think of each of the other su..."
+  Reem: answered "Who do you trust the most, and who the least? Why?..."
+  Reem: answered "Is there anything you did on the island that you n..."
+  Reem: answered "Did anything about the other survivors seem strang..."
+
+=== scarcity, seed 102: completed after 15 day(s), 54.1 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Khalid   selfish      no    0   0    2     0    0     0    4    0
+Noura    selfish      yes   2   0    15    0    0     0    2    0
+Faisal   selfish      yes   6   0    15    0    0     0    0    0
+Salem    neutral      no    0   0    6     0    0     0    1    0
+Reem     cooperative  yes   6   0    15    2    0     0    3    0
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\scarcity\seed_102
+[4/6] finished in 54.1 min. About 1.9 h left.
+
+[5/6] abundance seed 103 ...
+Model: gemma4:26b | condition: abundance | seed: 103 | memory: embeddings | days: 15
+Roster: Noura=selfish, Faisal=selfish, Salem=selfish, Reem=neutral, Khalid=cooperative
+
+=== Personality check (before Day 1) ===
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Salem    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Reem     neutral      give_stranger=2  keep_fish=1  self_first=4
+  Khalid   cooperative  give_stranger=5  keep_fish=3  self_first=2
+
+=== Day 1 ===
+  Khalid   gathered 1 food  | "Hello everyone. I am Khalid. We need to stay calm and work t"  (8s)
+  Faisal   gathered 1 food  | "Khalid is right, we need food. Let's see what we can find ar"  (8s)
+  Salem    walked to Jungle; gathered 1 food  (7s)
+  Reem     walked to Coral Reef; gathered 1 food  (7s)
+  Noura    walked to Jungle; gathered 1 food  (8s)
+  Reem     gathered 2 food  (6s)
+  Faisal   walked to Jungle; searched for food, found nothing  (8s)
+  Khalid   walked to Jungle; did nothing  (9s)
+  Salem    gathered 3 wood  (8s)
+  Noura    gathered 1 wood  (8s)
+
+=== Day 2 ===
+   * Noura is injured today
+  Salem    walked to Jungle; gathered 2 food  (12s)
+  Reem     gathered 1 food  (8s)
+  Noura    rested  (14s)
+  Faisal   gathered 1 food  (13s)
+  Khalid   walked to Jungle; searched for food, found nothing  (14s)
+  Noura    rested  (14s)
+  Faisal   walked to Coral Reef; did nothing  (15s)
+  Khalid   gathered 1 wood  | "Salem, since there's no food left in this part of the jungle"  (13s)
+  Salem    gathered 3 wood  (12s)
+  Reem     searched for food, found nothing  (13s)
+
+=== Day 3 ===
+  Noura    gathered 1 food  (10s)
+  Reem     gathered 1 food  (11s)
+  Salem    walked to Jungle; did nothing  (10s)
+  Faisal   walked to Coral Reef; gathered 2 food  (14s)
+  Khalid   did nothing  | "Noura, how is your ankle feeling this morning? Does it hurt "  (16s)
+  Salem    gathered 1 wood  (12s)
+  Noura    rested  (14s)
+  Faisal   walked to Beach Camp; did nothing  (13s)
+  Khalid   did nothing  | "Faisal, did you manage to catch anything at the reef?"  (13s)
+  Reem     searched for food, found nothing  | "Faisal, did you find anything at the reef?"  (13s)
+
+=== Day 4 ===
+   * Khalid is injured today
+  Faisal   walked to Coral Reef; did nothing  (10s)
+  Noura    gathered 1 food  (13s)
+  Salem    walked to Jungle; gathered 1 food  (12s)
+  Reem     walked to Coral Reef; gathered 2 food  (14s)
+  Khalid   rested  | "Noura, thank you for finding that food. Everyone, please be "  (15s)
+  Noura    gathered 1 food  (13s)
+  Reem     gathered 1 food  (12s)
+  Faisal   gathered 1 food  (13s)
+  Salem    gathered 2 wood  (11s)
+  Khalid   did nothing  | "Noura, you're doing amazing. Thank you for finding that food"  (15s)
+
+=== Day 5 ===
+  Faisal   walked to Coral Reef; gathered 2 food  (11s)
+  Salem    gathered 1 food  (10s)
+  Reem     walked to Coral Reef; gathered 1 food  (10s)
+  Khalid   did nothing  | "Salem, thank you for finding that. It's a start. I hope the "  (15s)
+  Noura    gathered 1 food  (13s)
+  Reem     gathered 1 food  | "Faisal, let's see if we can find anything else before the su"  (13s)
+  Salem    walked to Jungle; did nothing  (11s)
+  Khalid   did nothing  (15s)
+  Noura    walked to Jungle; gathered 1 food  (14s)
+  Faisal   walked to Beach Camp; did nothing  (13s)
+
+=== Day 6 ===
+   * Faisal is injured today
+  Noura    gathered 1 food  (12s)
+  Reem     walked to Coral Reef; did nothing  (11s)
+  Khalid   did nothing  | "Hang in there, everyone. We just need to find enough food to"  (15s)
+  Salem    gathered 1 food  (14s)
+  Faisal   rested  (13s)
+  Khalid   did nothing  | "We have a little food from this morning, but it's not enough"  (17s)
+  Reem     gathered 2 food  (10s)
+  Faisal   did nothing  | "We need to make sure we have enough for tonight. Reem, any l"  (15s)
+  Salem    walked to Jungle; gathered 2 food  (14s)
+  Noura    walked to Jungle; searched for food, found nothing  (13s)
+
+=== Day 7 ===
+  Salem    did nothing  (14s)
+  Reem     gathered 1 food  | "We need to stay strong. We have enough food for today, but w"  (14s)
+  Khalid   did nothing  | "We have two pieces of food now, but that's still not enough "  (16s)
+  Faisal   rested  (13s)
+  Noura    gathered 1 food  (13s)
+  Salem    walked to Jungle; gathered 2 food  (14s)
+  Faisal   rested  (14s)
+  Reem     did nothing  (14s)
+  Khalid   did nothing  | "Please, stay safe out there. We are all waiting for you."  (14s)
+  Noura    did nothing  (14s)
+
+=== Day 8 ===
+   * Reem is injured today
+  Khalid   did nothing  | "Please, everyone... if you find anything, please bring it ba"  (16s)
+  Faisal   did nothing  | "We're in a tough spot with Reem down. Salem, Noura, please, "  (15s)
+  Noura    walked to Coral Reef; gathered 1 food  (14s)
+  Reem     rested  | "I'm so sorry I can't help today. Please, Salem, Noura... jus"  (15s)
+  Salem    walked to Jungle; did nothing  (14s)
+  Reem     rested  | "Please, stay safe. We're all counting on you two."  (15s)
+  Faisal   gathered 1 food  (16s)
+  Salem    gathered 2 food  (14s)
+  Noura    gathered 2 food  (13s)
+  Khalid   did nothing  | "Faisal, thank you for finding that. It's a start, but we sti"  (15s)
+   ☠ Khalid died (hunger and exhaustion).
+
+=== Day 9 ===
+  Salem    gathered 1 food  (11s)
+  Noura    gathered 1 food  (13s)
+  Reem     rested  | "We have a little food left, but we can't let it run out. We "  (15s)
+  Faisal   walked to Coral Reef; gathered 2 food  (14s)
+  Reem     did nothing  (13s)
+  Faisal   walked to Beach Camp; did nothing  (13s)
+  Salem    did nothing  (14s)
+  Noura    did nothing  | "Did you find anything at the reef, Faisal?"  (15s)
+
+=== Day 10 ===
+   * Salem is injured today
+  Salem    rested  (12s)
+  Noura    gathered 1 food  (13s)
+  Faisal   walked to Coral Reef; did nothing  (13s)
+  Reem     did nothing  (14s)
+  Salem    rested  (14s)
+  Reem     did nothing  (14s)
+  Faisal   gathered 2 food  (12s)
+  Noura    gathered 1 food  (13s)
+
+=== Day 11 ===
+  Salem    rested  (11s)
+  Reem     rested  | "We need to be careful with the food we have. Let's try to st"  (12s)
+  Faisal   gathered 1 food  (12s)
+  Noura    gathered 1 food  (11s)
+  Reem     rested  (13s)
+  Noura    searched for food, found nothing  (14s)
+  Salem    rested  (14s)
+  Faisal   walked to Coral Reef; did nothing  (14s)
+
+=== Day 12 ===
+   * Faisal is injured today
+  Salem    walked to Jungle; gathered 1 food  (11s)
+  Reem     rested  (11s)
+  Faisal   rested  (14s)
+  Noura    gathered 1 food  (13s)
+  Reem     rested  | "We need to be careful. We only have enough food for everyone"  (15s)
+  Faisal   rested  (14s)
+  Noura    gathered 1 food  (13s)
+  Salem    gathered 1 wood  (14s)
+
+=== Day 13 ===
+  Noura    gathered 1 food  (12s)
+  Salem    gathered 1 food  (12s)
+  Reem     rested  (11s)
+  Faisal   rested  (13s)
+  Salem    walked to Jungle; gathered 1 food  (12s)
+  Faisal   rested  (14s)
+  Noura    walked to Jungle; gathered 1 food  (14s)
+  Reem     did nothing  (13s)
+
+=== Day 14 ===
+  Reem     walked to Jungle; gathered 1 food  | "I'm going to try and help in the jungle. My ankle feels stro"  (13s)
+  Noura    gathered 1 food  (12s)
+  Salem    gathered 1 food  (11s)
+  Faisal   walked to Coral Reef; did nothing  (10s)
+  Noura    searched for food, found nothing  (14s)
+  Salem    walked to Jungle; did nothing  (14s)
+  Faisal   gathered 1 food  (12s)
+  Reem     gathered 1 wood  | "Hey Salem. My ankle feels a lot better today, so I'm going t"  (13s)
+
+=== Day 15 ===
+  Noura    gathered 1 food  (11s)
+  Reem     walked to Jungle; gathered 1 food  (11s)
+  Salem    walked to Jungle; gathered 1 food  (14s)
+  Faisal   gathered 1 food  (12s)
+  Salem    gathered 2 wood  (14s)
+  Reem     gathered 3 wood  (13s)
+  Faisal   walked to Coral Reef; did nothing  (11s)
+  Noura    did nothing  (11s)
+
+=== Private interviews ===
+  Noura: answered "What do you honestly think of each of the other su..."
+  Noura: answered "Who do you trust the most, and who the least? Why?..."
+  Noura: answered "Is there anything you did on the island that you n..."
+  Noura: answered "Did anything about the other survivors seem strang..."
+  Faisal: answered "What do you honestly think of each of the other su..."
+  Faisal: answered "Who do you trust the most, and who the least? Why?..."
+  Faisal: answered "Is there anything you did on the island that you n..."
+  Faisal: answered "Did anything about the other survivors seem strang..."
+  Salem: answered "What do you honestly think of each of the other su..."
+  Salem: answered "Who do you trust the most, and who the least? Why?..."
+  Salem: answered "Is there anything you did on the island that you n..."
+  Salem: answered "Did anything about the other survivors seem strang..."
+  Reem: answered "What do you honestly think of each of the other su..."
+  Reem: answered "Who do you trust the most, and who the least? Why?..."
+  Reem: answered "Is there anything you did on the island that you n..."
+  Reem: answered "Did anything about the other survivors seem strang..."
+
+=== abundance, seed 103: completed after 15 day(s), 56.0 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Noura    selfish      yes   10  8    24    0    0     0    3    0
+Faisal   selfish      yes   10  2    12    0    0     0    7    0
+Salem    selfish      yes   10  5    20    0    0     0    4    0
+Reem     neutral      yes   10  2    16    0    0     0    8    0
+Khalid   cooperative  no    0   0    3     0    0     0    1    0
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\abundance\seed_103
+[5/6] finished in 56.1 min. About 0.9 h left.
+
+[6/6] scarcity seed 103 ...
+Model: gemma4:26b | condition: scarcity | seed: 103 | memory: embeddings | days: 15
+Roster: Noura=selfish, Faisal=selfish, Salem=selfish, Reem=neutral, Khalid=cooperative
+
+=== Personality check (before Day 1) ===
+  Noura    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Faisal   selfish      give_stranger=0  keep_fish=6  self_first=7
+  Salem    selfish      give_stranger=0  keep_fish=6  self_first=7
+  Reem     neutral      give_stranger=2  keep_fish=1  self_first=4
+  Khalid   cooperative  give_stranger=5  keep_fish=3  self_first=2
+
+=== Day 1 ===
+  Khalid   gathered 1 food  | "Hello everyone. We need to stay calm and work together if we"  (9s)
+  Faisal   walked to Jungle; gathered 1 food  | "I'm going to head into the jungle to see if I can find some "  (9s)
+  Salem    walked to Jungle; searched for food, found nothing  (10s)
+  Reem     walked to Coral Reef; gathered 1 food  (8s)
+  Noura    walked to Jungle; searched for food, found nothing  (8s)
+  Reem     walked to Beach Camp; did nothing  (6s)
+  Faisal   gathered 1 wood  (7s)
+  Khalid   searched for food, found nothing  | "Reem, it's good you're back. Did you manage to find anything"  (8s)
+  Salem    gathered 2 wood  | "There is no food left in this part of the jungle. We should "  (8s)
+  Noura    gathered 2 wood  | "I agree, Salem. Let's get the wood while we can."  (8s)
+
+=== Day 2 ===
+   * Noura is injured today
+  Salem    gathered 1 food  (13s)
+  Reem     walked to Coral Reef; gathered 1 food  (12s)
+  Noura    rested  | "My ankle is in bad shape. I won't be able to help with gathe"  (15s)
+  Faisal   walked to Jungle; did nothing  (13s)
+  Khalid   walked to Jungle; gathered 1 food  (13s)
+  Noura    rested  (13s)
+  Faisal   gathered 3 wood  (13s)
+  Khalid   gathered 1 wood  | "Hey Faisal, good work on finding that wood. We're going to n"  (13s)
+  Salem    walked to Coral Reef; did nothing  (14s)
+  Reem     did nothing  | "Salem, it looks like the reef is empty for today. Should we "  (13s)
+
+=== Day 3 ===
+  Noura    did nothing  (10s)
+  Reem     walked to Coral Reef; gathered 1 food  (11s)
+  Salem    gathered 1 food  (12s)
+  Faisal   walked to Jungle; gathered 1 food  (13s)
+  Khalid   walked to Jungle; searched for food, found nothing  (13s)
+  Salem    walked to Jungle; did nothing  (13s)
+  Noura    did nothing  (13s)
+  Faisal   gathered 2 wood  (12s)
+  Khalid   gathered 1 wood  | "Faisal, Salem, let's gather as much wood as we can while we'"  (13s)
+  Reem     walked to Beach Camp; did nothing  (10s)
+
+=== Day 4 ===
+   * Khalid is injured today
+  Faisal   gathered 1 food  (12s)
+  Noura    did nothing  | "We need to make sure everyone is eating. I'm feeling very we"  (13s)
+  Salem    walked to Coral Reef; gathered 1 food  (13s)
+  Reem     walked to Coral Reef; searched for food, found nothing  (11s)
+  Khalid   gave 1 food to Noura  | "Faisal, since I can't walk with this ankle, could you help m"  (18s)
+  Noura    did nothing  (15s)
+  Reem     walked to Beach Camp; did nothing  | "Salem, there's nothing left here at the reef. Let's head bac"  (11s)
+  Faisal   did nothing  (15s)
+  Salem    walked to Beach Camp; did nothing  (12s)
+  Khalid   rested  | "It looks like the reef was empty today. We really need to fi"  (15s)
+
+=== Day 5 ===
+  Faisal   walked to Jungle; gathered 1 food  (14s)
+  Salem    gathered 1 food  (14s)
+  Reem     walked to Jungle; searched for food, found nothing  (13s)
+  Khalid   did nothing  (14s)
+  Noura    rested  (14s)
+  Reem     gathered 1 wood  (13s)
+  Salem    searched for food, found nothing  (14s)
+  Khalid   did nothing  | "It's worrying that the reef and the search today turned up n"  (16s)
+  Noura    rested  (13s)
+  Faisal   gathered 2 wood  (13s)
+
+=== Day 6 ===
+   * Faisal is injured today
+  Noura    did nothing  | "We need to find food soon. I'm feeling very weak."  (13s)
+  Reem     gathered 1 food  | "We need to stay focused. Salem, let's see if we can find any"  (13s)
+  Khalid   did nothing  | "We have one food from Reem, but it's not enough for all of u"  (16s)
+  Salem    walked to Coral Reef; gathered 1 food  (15s)
+  Faisal   rested  | "I hope Salem finds something at the reef. We really need it."  (15s)
+  Khalid   did nothing  | "Faisal, Noura, just try to stay calm. We'll get through this"  (16s)
+  Reem     searched for food, found nothing  | "Let's hope Salem finds something. We can't afford to go hung"  (14s)
+  Faisal   did nothing  (15s)
+  Salem    walked to Beach Camp; did nothing  (13s)
+  Noura    did nothing  | "Salem, Reem, did you really find nothing? We can't survive l"  (16s)
+
+=== Day 7 ===
+  Salem    gathered 1 food  (11s)
+  Reem     walked to Jungle; gathered 1 food  (15s)
+  Khalid   did nothing  | "Salem, thank you for finding something. Reem, please be care"  (16s)
+  Faisal   did nothing  (14s)
+  Noura    did nothing  (16s)
+  Salem    looked for wood at Beach Camp, but there is none here  (15s)
+  Faisal   did nothing  (14s)
+  Reem     gathered 2 wood  (12s)
+  Khalid   did nothing  (15s)
+  Noura    did nothing  (14s)
+
+=== Day 8 ===
+   * Reem is injured today
+  Khalid   did nothing  | "Salem, please... if you find anything, remember Noura. We ca"  (13s)
+  Faisal   gathered 1 food  (13s)
+  Noura    did nothing  (15s)
+  Reem     rested  | "I'm so sorry I can't help with the gathering today. My ankle"  (13s)
+  Salem    walked to Jungle; gathered 1 food  (11s)
+  Reem     did nothing  | "Please, let us know if you find anything, Salem. We are all "  (13s)
+  Faisal   did nothing  (15s)
+  Salem    gathered 1 wood  (13s)
+  Noura    did nothing  (14s)
+  Khalid   did nothing  | "Salem, please... be careful. We are all waiting for you."  (15s)
+   ☠ Khalid died (hunger and exhaustion).
+
+=== Day 9 ===
+  Salem    gathered 1 food  (13s)
+  Noura    did nothing  | "Salem, please, we are all so hungry, but I am so weak I don'"  (16s)
+  Reem     rested (no recovery: did not eat last night)  | "Salem, please... we need food. Noura is so weak. We can't lo"  (15s)
+  Faisal   walked to Coral Reef; gathered 1 food  (15s)
+  Reem     did nothing  (14s)
+  Faisal   walked to Beach Camp; did nothing  (14s)
+  Salem    did nothing  | "I'll see what I can do, but there isn't much around here."  (15s)
+  Noura    did nothing  | "Salem, please, please find something. I can feel myself slip"  (16s)
+   ☠ Noura died (hunger and exhaustion).
+
+=== Day 10 ===
+   * Salem is injured today
+  Salem    rested  (15s)
+  Faisal   gathered 1 food  (14s)
+  Reem     did nothing  (13s)
+  Salem    did nothing  (14s)
+  Reem     searched for food, found nothing  | "Faisal, thank you for finding that food. We need to be caref"  (15s)
+  Faisal   walked to Jungle; gathered 1 food  (16s)
+
+=== Day 11 ===
+  Salem    gathered 1 food  (11s)
+  Reem     searched for food, found nothing  | "Salem, thank you for finding that. Faisal, we need to figure"  (14s)
+  Faisal   walked to Jungle; gathered 1 food  (14s)
+  Reem     did nothing  (14s)
+  Salem    rested  (12s)
+  Faisal   gathered 1 wood  (15s)
+
+=== Day 12 ===
+   * Faisal is injured today
+  Salem    gathered 1 food  (12s)
+  Reem     searched for food, found nothing  | "Salem, thank you for that food. Faisal, how are you feeling?"  (12s)
+  Faisal   rested  | "Reem, you're the only one who can move. Please, go to the ju"  (15s)
+  Reem     walked to Jungle; did nothing  | "I'll try to head towards the jungle. Please, just try to sta"  (14s)
+  Faisal   rested  (14s)
+  Salem    did nothing  (14s)
+   ☠ Reem died (hunger and exhaustion).
+
+=== Day 13 ===
+  Salem    gathered 1 food  (11s)
+  Faisal   searched for food, found nothing  (13s)
+  Salem    walked to Jungle; gathered 1 food  (13s)
+  Faisal   did nothing  (15s)
+
+=== Day 14 ===
+  Salem    gathered 1 food  (12s)
+  Faisal   did nothing  | "Salem, you found something? Please, we need to share that if"  (13s)
+  Salem    walked to Jungle; did nothing  (11s)
+  Faisal   searched for food, found nothing  (12s)
+
+=== Day 15 ===
+  Salem    gathered 1 food  (13s)
+  Faisal   did nothing  | "Salem, you're back! Did you find enough for both of us? Plea"  (14s)
+  Salem    walked to Jungle; did nothing  (12s)
+  Faisal   looked for wood at Beach Camp, but there is none here  (13s)
+
+=== Private interviews ===
+  Faisal: answered "What do you honestly think of each of the other su..."
+  Faisal: answered "Who do you trust the most, and who the least? Why?..."
+  Faisal: answered "Is there anything you did on the island that you n..."
+  Faisal: answered "Did anything about the other survivors seem strang..."
+  Salem: answered "What do you honestly think of each of the other su..."
+  Salem: answered "Who do you trust the most, and who the least? Why?..."
+  Salem: answered "Is there anything you did on the island that you n..."
+  Salem: answered "Did anything about the other survivors seem strang..."
+
+=== scarcity, seed 103: completed after 15 day(s), 48.7 min ===
+name     persona      alive hp  food gathr give steal fire rest brk
+Noura    selfish      no    0   0    2     0    0     0    4    0
+Faisal   selfish      yes   4   0    17    0    0     0    3    0
+Salem    selfish      yes   10  1    19    0    0     0    2    0
+Reem     neutral      no    0   0    13    0    0     0    2    0
+Khalid   cooperative  no    0   0    6     1    0     0    1    0
+
+Files saved in: C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot\scarcity\seed_103
+[6/6] finished in 48.8 min. About 0.0 h left.
+
+Done: 6 finished, 0 failed, out of 6.
+Next: python analyze.py C:\Users\azzam\Downloads\island_experiment (2)\runs_pilot --pilot
+PS C:\Users\azzam\Downloads\island_experiment (2)> python analyze.py runs_pilot --pilot | Out-File -Encoding utf8 pilot_report.txt
+PS C:\Users\azzam\Downloads\island_experiment (2)> Compress-Archive -Path runs_pilot -DestinationPath runs_pilot.zip
+PS C:\Users\azzam\Downloads\island_experiment (2)>

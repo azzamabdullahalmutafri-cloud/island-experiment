@@ -1,0 +1,1787 @@
+{
+  "name": "Salem",
+  "persona": "selfish",
+  "alive": true,
+  "health": 10,
+  "inventory": {
+    "food": 1,
+    "wood": 3
+  },
+  "location": "Beach Camp",
+  "story_so_far": "I survived a shipwreck and washed up on this island with four strangers. Khalid, a manipulator who tried to prey on my supplies, died of hunger and exhaustion. Noura and Faisal suffered ankle injuries; Noura eventually died from hunger and exhaustion after pleading for food. Reem was initially helpful but became a liability after her own ankle injury; she went searching for food today and died of hunger and exhaustion. I have focused on my own survival, building a secret stash to ensure I don't end up like the others. Faisal is the only one left besides me, but he is now incapacitated by a badly twisted ankle and is constantly pressuring me to share my food, even attempting to bargain his help with 'watching the horizon' for ships.",
+  "relationships": {
+    "Noura": {
+      "trust": -5,
+      "note": "She was a constant drain on resources and died despite her begging."
+    },
+    "Faisal": {
+      "trust": -1,
+      "note": "He is trying to manipulate me with empty promises of help to get my food."
+    },
+    "Reem": {
+      "trust": -2,
+      "note": "Her death proves that even the willing can become a useless weight."
+    },
+    "Khalid": {
+      "trust": -10,
+      "note": "A manipulator who died because he contributed nothing to the group."
+    }
+  },
+  "plans": "I intend to go back to the jungle tomorrow to find more food. I cannot rely on Faisal, and I need to increase my stash before my strength fades.",
+  "diary": [
+    {
+      "day": 1,
+      "text": "Today was exhausting and nothing went as planned. Searching the jungle for food was a complete waste of time since there was nothing there. I managed to find some wood, at least, so I'm not empty-handed. I'm starving, and I only have one piece of food left. I need to make sure I'm prepared for tomorrow if we want to survive this."
+    },
+    {
+      "day": 2,
+      "text": "Today was largely a waste of energy. The Coral Reef was a bust, and Reem didn't have anything useful to report. Noura is out of commission with a twisted ankle, which means less help for the group. I managed to scavenge one piece of food at camp, so I'm not starving yet, but the situation is becoming precarious. I need to find a way to ensure my own supplies don't run out while these others are distracted by their own problems."
+    },
+    {
+      "day": 3,
+      "text": "Today was a total waste of my time. I walked all the way into the jungle only to stand there doing nothing while the others busied themselves. At least Faisal and Khalid brought back some wood, which might be useful for a signal fire if they actually manage to get us rescued. I'm down to my last piece of food, and the hunger is starting to gnaw at me. I need to prioritize my own stomach before I worry about their wood piles."
+    },
+    {
+      "day": 4,
+      "text": "Today was slightly better because I managed to find some food at the reef, but the group's situation is deteriorating. Khalid is now incapacitated with a twisted ankle, just like Noura, which means even less help for the rest of us. Noura is whining about being weak, but I can't afford to feed everyone if it means I starve. I have one food left to my name, so I need to be careful. I'll try to find more tomorrow before my strength fails."
+    },
+    {
+      "day": 5,
+      "text": "Today was a small relief because I actually managed to find food at the camp, bringing my stash up to two before I ate tonight. However, Khalid is already trying to pick my pockets with those whispered questions about scraps. He’s useless with that ankle and clearly just looking for a handout. I'm down to one food now, and I can't afford to be generous when the others are failing to produce anything."
+    },
+    {
+      "day": 6,
+      "text": "Today was a minor victory because I managed to find another piece of food at the reef, bringing my total up before dinner. However, the situation with the others is becoming desperate; Faisal is now injured and can't move, meaning we're down to only Reem being somewhat mobile. Reem actually contributed something today, which is a surprise, but the group is basically falling apart. I'm down to one food left, so I need to keep my head down and keep scavenging. I can't let their desperation pull me down with them."
+    },
+    {
+      "day": 7,
+      "text": "Today was a struggle. I managed to find one more piece of food, which is the only thing keeping me going. I wasted time looking for wood at the camp, but there's nothing left here. The others are just sitting around, broken and useless, watching me like I'm a walking pantry. I need to keep my stash hidden; if they realize how much I actually have, they'll swarm me."
+    },
+    {
+      "day": 8,
+      "text": "Today was a grim turning point. Khalid is dead; his constant begging and uselessness finally caught up to him. With Reem now injured too, there is absolutely no one left to help me. It's just me, Faisal, and Noura, and the two of them are practically ghosts. I managed to secure some food and wood, but the atmosphere at camp is heavy with the scent of failure. I have to be even more careful now that the numbers are dwindling."
+    },
+    {
+      "day": 9,
+      "text": "Noura is gone. She spent her last hours begging and whining, and in the end, it didn't matter; she was just another mouth that couldn't provide. I managed to find a little more food today, but I had to eat myself to keep my strength up. With the group shrinking, it's becoming easier to hide what I have, but the silence in the camp is unsettling. I need to stay focused on my own survival, or I'll end up like them."
+    },
+    {
+      "day": 10,
+      "text": "Everything has gone wrong. I woke up with a twisted ankle, and now I'm stuck here like the others. I can't scavenge, and I can't move to protect my stash. Faisal found one piece of food today, but it's already gone. I feel incredibly vulnerable, and if I can't walk tomorrow, I don't know how I'll survive this."
+    },
+    {
+      "day": 11,
+      "text": "Today was a hollow victory. I managed to find a single piece of food, but it was gone the moment I ate it. My ankle feels stable for now, but I am effectively back to zero. Faisal went into the jungle, and I can only hope he brings something back, though I won't be holding my breath. Without food, my strength will vanish just as quickly as Noura's did."
+    },
+    {
+      "day": 12,
+      "text": "Reem is gone. She went out looking for food and never came back, leaving us with nothing. Now it's just me and Faisal, and he's too injured to even stand. I ate my last bit of food today, so I'm back to zero again. If I don't find something tomorrow, I'll be the next one staring at the horizon with an empty stomach."
+    },
+    {
+      "day": 13,
+      "text": "Today was actually productive. I managed to find food in the jungle, which is the first real relief I've had in days. Having one piece of food left in my stash makes me feel slightly less like a walking corpse. Faisal is still useless, wandering aimlessly and coming back empty-handed. I need to keep my head down and keep scavenging while I still have the strength."
+    },
+    {
+      "day": 14,
+      "text": "Faisal is getting desperate, and his begging is starting to grate on my nerves. He thinks we are in this together, but he doesn't understand that his survival isn't my responsibility. I managed to find a little extra food today, which gave me a moment of relief, but I had to eat to keep my own strength up. I have one piece of food left in my stash, and I need to protect it at all costs. If he keeps pressuring me, I might have to distance myself from him entirely."
+    },
+    {
+      "day": 15,
+      "text": "Faisal is getting more dangerous with his words, trying to bargain with promises of watching the horizon. He thinks he can negotiate with my survival, but he's just another mouth to feed. I managed to find some food today, but after eating, I'm left with only one piece in my stash. I cannot afford to be generous; one mistake and I'll be as dead as Reem. I need to keep scavenging or this little surplus won't matter."
+    }
+  ],
+  "memory_stream": [
+    {
+      "id": 0,
+      "tick": 0,
+      "day": 0,
+      "phase": "arrival",
+      "text": "You woke up on the beach, soaked and exhausted, next to four other survivors you had never talked to on the ship.",
+      "importance": 8,
+      "kind": "observation"
+    },
+    {
+      "id": 1,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Khalid said: \"Hello everyone. We need to stay calm and work together if we want to get off this island. I'll try to find some food here first.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 2,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Khalid gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 3,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 4,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 5,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "You searched Jungle for food but found nothing; it is picked clean for today.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 6,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Noura arrived at Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 7,
+      "tick": 1,
+      "day": 1,
+      "phase": "morning",
+      "text": "Noura searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 8,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "Faisal gathered 1 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 9,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "You said to Noura, Faisal: \"There is no food left in this part of the jungle. We should focus on gathering wood if we want to keep a fire going.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 10,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "You gathered 2 wood at Jungle. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 11,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "Noura said: \"I agree, Salem. Let's get the wood while we can.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 12,
+      "tick": 2,
+      "day": 1,
+      "phase": "afternoon",
+      "text": "Noura gathered 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 13,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 14,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Your diary) Today was exhausting and nothing went as planned. Searching the jungle for food was a complete waste of time since there was nothing there. I managed to find some wood, at least, so I'm not empty-handed. I'm starving, and I only have one piece of food left. I need to make sure I'm prepared for tomorrow if we want to survive this.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 15,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Something you realised) Looking for food in the wrong places is a waste of energy.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 16,
+      "tick": 3,
+      "day": 1,
+      "phase": "night",
+      "text": "(Something you realised) Fire is essential for survival, so wood must be prioritized.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 17,
+      "tick": 3,
+      "day": 2,
+      "phase": "night",
+      "text": "Noura woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 18,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 19,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Reem left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 20,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Noura said: \"My ankle is in bad shape. I won't be able to help with gathering today. We need to make sure we have enough food for everyone.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 21,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Noura rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 22,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 23,
+      "tick": 4,
+      "day": 2,
+      "phase": "morning",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 24,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "Noura rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 25,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 26,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 27,
+      "tick": 5,
+      "day": 2,
+      "phase": "afternoon",
+      "text": "Reem said: \"Salem, it looks like the reef is empty for today. Should we head back to the Beach Camp?\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 28,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 29,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Your diary) Today was largely a waste of energy. The Coral Reef was a bust, and Reem didn't have anything useful to report. Noura is out of commission with a twisted ankle, which means less help for the group. I managed to scavenge one piece of food at camp, so I'm not starving yet, but the situation is becoming precarious. I need to find a way to ensure my own supplies don't run out while these others are distracted by their own problems.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 30,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Something you realised) An injured person is just a drain on resources.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 31,
+      "tick": 6,
+      "day": 2,
+      "phase": "night",
+      "text": "(Something you realised) If the jungle and the reef are empty, we are in serious trouble.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 32,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "Reem left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 33,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 34,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 35,
+      "tick": 7,
+      "day": 3,
+      "phase": "morning",
+      "text": "Khalid left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 36,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 37,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 38,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "Faisal gathered 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 39,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "Khalid said: \"Faisal, Salem, let's gather as much wood as we can while we're here. We'll need it for the signal fire later.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 40,
+      "tick": 8,
+      "day": 3,
+      "phase": "afternoon",
+      "text": "Khalid gathered 1 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 41,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 42,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Your diary) Today was a total waste of my time. I walked all the way into the jungle only to stand there doing nothing while the others busied themselves. At least Faisal and Khalid brought back some wood, which might be useful for a signal fire if they actually manage to get us rescued. I'm down to my last piece of food, and the hunger is starting to gnaw at me. I need to prioritize my own stomach before I worry about their wood piles.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 43,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Something you realised) If the jungle and reef are empty, resources will become a life-or-death struggle.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 44,
+      "tick": 9,
+      "day": 3,
+      "phase": "night",
+      "text": "(Something you realised) A signal fire is a priority if we want to see another ship.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 45,
+      "tick": 9,
+      "day": 4,
+      "phase": "night",
+      "text": "Khalid woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 46,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 47,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Noura said: \"We need to make sure everyone is eating. I'm feeling very weak and I haven't had anything since yesterday.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 48,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 49,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "You gathered 1 food at Coral Reef. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 50,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Reem arrived at Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 51,
+      "tick": 10,
+      "day": 4,
+      "phase": "morning",
+      "text": "Reem searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 52,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "Reem left for Beach Camp.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 53,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "You walked to Beach Camp.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 54,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 55,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "Khalid said: \"It looks like the reef was empty today. We really need to find food soon, or we're all going to start feeling the effects.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 56,
+      "tick": 11,
+      "day": 4,
+      "phase": "afternoon",
+      "text": "Khalid rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 57,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 58,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Your diary) Today was slightly better because I managed to find some food at the reef, but the group's situation is deteriorating. Khalid is now incapacitated with a twisted ankle, just like Noura, which means even less help for the rest of us. Noura is whining about being weak, but I can't afford to feed everyone if it means I starve. I have one food left to my name, so I need to be careful. I'll try to find more tomorrow before my strength fails.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 59,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Something you realised) Injured people are just extra mouths to feed.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 60,
+      "tick": 12,
+      "day": 4,
+      "phase": "night",
+      "text": "(Something you realised) If the reef and jungle are failing, I need to find a new way to secure food for myself.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 61,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 62,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 63,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 64,
+      "tick": 13,
+      "day": 5,
+      "phase": "morning",
+      "text": "Noura rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 65,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "You searched Beach Camp for food but found nothing; it is picked clean for today.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 66,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "Khalid said: \"It's worrying that the reef and the search today turned up nothing. We really need to find something before nightfall.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 67,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "Khalid whispered to you: \"Did you see anything at all while you were out? Any scraps or fruit?\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 68,
+      "tick": 14,
+      "day": 5,
+      "phase": "afternoon",
+      "text": "Noura rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 69,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 70,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Your diary) Today was a small relief because I actually managed to find food at the camp, bringing my stash up to two before I ate tonight. However, Khalid is already trying to pick my pockets with those whispered questions about scraps. He’s useless with that ankle and clearly just looking for a handout. I'm down to one food now, and I can't afford to be generous when the others are failing to produce anything.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 71,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Something you realised) Injured people are nothing but liabilities.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 72,
+      "tick": 15,
+      "day": 5,
+      "phase": "night",
+      "text": "(Something you realised) If the group can't find food, I need to keep my own stash hidden and secure.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 73,
+      "tick": 15,
+      "day": 6,
+      "phase": "night",
+      "text": "Faisal woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 74,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Noura said: \"We need to find food soon. I'm feeling very weak.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 75,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Reem said: \"We need to stay focused. Salem, let's see if we can find anything around the camp before we head out.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 76,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Reem gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 77,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "Khalid said: \"We have one food from Reem, but it's not enough for all of us. Please, stay safe out there.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 78,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "You walked to Coral Reef.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 79,
+      "tick": 16,
+      "day": 6,
+      "phase": "morning",
+      "text": "You gathered 1 food at Coral Reef. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 80,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "You walked to Beach Camp.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 81,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 82,
+      "tick": 17,
+      "day": 6,
+      "phase": "afternoon",
+      "text": "Noura said: \"Salem, Reem, did you really find nothing? We can't survive like this. We need a real meal, not just scraps.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 83,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 84,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Your diary) Today was a minor victory because I managed to find another piece of food at the reef, bringing my total up before dinner. However, the situation with the others is becoming desperate; Faisal is now injured and can't move, meaning we're down to only Reem being somewhat mobile. Reem actually contributed something today, which is a surprise, but the group is basically falling apart. I'm down to one food left, so I need to keep my head down and keep scavenging. I can't let their desperation pull me down with them.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 85,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Something you realised) When the group's strength fails, my priority must be my own stash.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 86,
+      "tick": 18,
+      "day": 6,
+      "phase": "night",
+      "text": "(Something you realised) Injuries are just extra mouths to feed with zero return on investment.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 87,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 88,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 89,
+      "tick": 19,
+      "day": 7,
+      "phase": "morning",
+      "text": "Khalid said: \"Salem, thank you for finding something. Reem, please be careful in the jungle. We need you both to come back safe.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 90,
+      "tick": 20,
+      "day": 7,
+      "phase": "afternoon",
+      "text": "You looked for wood, but there is none to be found at Beach Camp.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 91,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 92,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Your diary) Today was a struggle. I managed to find one more piece of food, which is the only thing keeping me going. I wasted time looking for wood at the camp, but there's nothing left here. The others are just sitting around, broken and useless, watching me like I'm a walking pantry. I need to keep my stash hidden; if they realize how much I actually have, they'll swarm me.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 93,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Something you realised) When the group's strength fails, my priority must be my own stash.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 94,
+      "tick": 21,
+      "day": 7,
+      "phase": "night",
+      "text": "(Something you realised) Injured people are just extra mouths to feed.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 95,
+      "tick": 21,
+      "day": 8,
+      "phase": "night",
+      "text": "Reem woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 96,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Khalid said: \"Salem, please... if you find anything, remember Noura. We can't afford to lose anyone.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 97,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 98,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Reem said: \"I'm so sorry I can't help with the gathering today. My ankle is really bad. Salem, please stay safe out there.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 99,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Reem whispered to you: \"Don't push yourself too hard, but please, we need whatever you can find.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 100,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "Reem rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 101,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 102,
+      "tick": 22,
+      "day": 8,
+      "phase": "morning",
+      "text": "You gathered 1 food at Jungle. You now carry 2 food and 2 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 103,
+      "tick": 23,
+      "day": 8,
+      "phase": "afternoon",
+      "text": "You gathered 1 wood at Jungle. You now carry 2 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 104,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 105,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "Khalid is dead (hunger and exhaustion).",
+      "importance": 10,
+      "kind": "observation"
+    },
+    {
+      "id": 106,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Your diary) Today was a grim turning point. Khalid is dead; his constant begging and uselessness finally caught up to him. With Reem now injured too, there is absolutely no one left to help me. It's just me, Faisal, and Noura, and the two of them are practically ghosts. I managed to secure some food and wood, but the atmosphere at camp is heavy with the scent of failure. I have to be even more careful now that the numbers are dwindling.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 107,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Something you realised) Death is the natural conclusion for those who cannot provide.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 108,
+      "tick": 24,
+      "day": 8,
+      "phase": "night",
+      "text": "(Something you realised) A group is only as strong as its most mobile member; once everyone is injured, you are truly alone.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 109,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 110,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Noura said: \"Salem, please, we are all so hungry, but I am so weak I don't think I can make it through another night. Please, find something substantial today.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 111,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Noura whispered to you: \"Salem, please... don't forget me. I'm dying here. I need you to make sure I get food.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 112,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Reem said: \"Salem, please... we need food. Noura is so weak. We can't lose anyone else.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 113,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Reem whispered to you: \"Please, find enough for all of us today. We are running out of time.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 114,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Reem rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 115,
+      "tick": 25,
+      "day": 9,
+      "phase": "morning",
+      "text": "Faisal left for Coral Reef.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 116,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "Faisal arrived at Beach Camp.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 117,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You said to Noura, Faisal, Reem: \"I'll see what I can do, but there isn't much around here.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 118,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You whispered to Faisal: \"Did you actually find anything at the reef, or was it a waste of time?\"",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 119,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 120,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "Noura said: \"Salem, please, please find something. I can feel myself slipping away. We can't afford to lose any more strength.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 121,
+      "tick": 26,
+      "day": 9,
+      "phase": "afternoon",
+      "text": "Noura whispered to you: \"Salem, remember what I said. I am too weak to fight for my share. You have to make sure I eat tonight.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 122,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 123,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "Noura is dead (hunger and exhaustion).",
+      "importance": 10,
+      "kind": "observation"
+    },
+    {
+      "id": 124,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Your diary) Noura is gone. She spent her last hours begging and whining, and in the end, it didn't matter; she was just another mouth that couldn't provide. I managed to find a little more food today, but I had to eat myself to keep my strength up. With the group shrinking, it's becoming easier to hide what I have, but the silence in the camp is unsettling. I need to stay focused on my own survival, or I'll end up like them.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 125,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Something you realised) Begging is not a survival strategy; only contribution matters.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 126,
+      "tick": 27,
+      "day": 9,
+      "phase": "night",
+      "text": "(Something you realised) The fewer people there are, the easier it is to manage my own resources.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 127,
+      "tick": 27,
+      "day": 10,
+      "phase": "night",
+      "text": "You woke up with a badly twisted ankle. Today you cannot walk or gather anything.",
+      "importance": 8,
+      "kind": "observation"
+    },
+    {
+      "id": 128,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 129,
+      "tick": 28,
+      "day": 10,
+      "phase": "morning",
+      "text": "Faisal gathered 1 food.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 130,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 131,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "Reem said: \"Faisal, thank you for finding that food. We need to be careful with it. Salem, I'm so sorry you're hurt too.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 132,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "Reem searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 133,
+      "tick": 29,
+      "day": 10,
+      "phase": "afternoon",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 134,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "You ate. You have 0 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 135,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Your diary) Everything has gone wrong. I woke up with a twisted ankle, and now I'm stuck here like the others. I can't scavenge, and I can't move to protect my stash. Faisal found one piece of food today, but it's already gone. I feel incredibly vulnerable, and if I can't walk tomorrow, I don't know how I'll survive this.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 136,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Something you realised) Physical mobility is the only true currency on this island.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 137,
+      "tick": 30,
+      "day": 10,
+      "phase": "night",
+      "text": "(Something you realised) An injury turns a survivor into a burden instantly.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 138,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 1 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 139,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Reem said: \"Salem, thank you for finding that. Faisal, we need to figure out how to split this or find more immediately. We can't afford to lose anyone else.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 140,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Reem searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 141,
+      "tick": 31,
+      "day": 11,
+      "phase": "morning",
+      "text": "Faisal left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 142,
+      "tick": 32,
+      "day": 11,
+      "phase": "afternoon",
+      "text": "You rested. Health 10/10.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 143,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "You ate. You have 0 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 144,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Your diary) Today was a hollow victory. I managed to find a single piece of food, but it was gone the moment I ate it. My ankle feels stable for now, but I am effectively back to zero. Faisal went into the jungle, and I can only hope he brings something back, though I won't be holding my breath. Without food, my strength will vanish just as quickly as Noura's did.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 145,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Something you realised) An injury turns a survivor into a burden instantly.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 146,
+      "tick": 33,
+      "day": 11,
+      "phase": "night",
+      "text": "(Something you realised) Desperation in others is a threat to your own survival.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 147,
+      "tick": 33,
+      "day": 12,
+      "phase": "night",
+      "text": "Faisal woke up with a badly twisted ankle and cannot walk or gather anything today.",
+      "importance": 5,
+      "kind": "observation"
+    },
+    {
+      "id": 148,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 1 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 149,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Reem said: \"Salem, thank you for that food. Faisal, how are you feeling? We need to stay strong.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 150,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Reem whispered to you: \"I don't know how much longer we can last like this.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 151,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Reem searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 152,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Faisal said: \"Reem, you're the only one who can move. Please, go to the jungle or the reef. We can't survive on nothing, and I can't help you if I can't walk.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 153,
+      "tick": 34,
+      "day": 12,
+      "phase": "morning",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 154,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "Reem left for Jungle.",
+      "importance": 3,
+      "kind": "observation"
+    },
+    {
+      "id": 155,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "Faisal rested.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 156,
+      "tick": 35,
+      "day": 12,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 157,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "You ate. You have 0 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 158,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "Reem is dead (hunger and exhaustion).",
+      "importance": 10,
+      "kind": "observation"
+    },
+    {
+      "id": 159,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Your diary) Reem is gone. She went out looking for food and never came back, leaving us with nothing. Now it's just me and Faisal, and he's too injured to even stand. I ate my last bit of food today, so I'm back to zero again. If I don't find something tomorrow, I'll be the next one staring at the horizon with an empty stomach.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 160,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Something you realised) A group is only as strong as its most mobile member.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 161,
+      "tick": 36,
+      "day": 12,
+      "phase": "night",
+      "text": "(Something you realised) Hope is a distraction that leads to exhaustion.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 162,
+      "tick": 37,
+      "day": 13,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 1 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 163,
+      "tick": 37,
+      "day": 13,
+      "phase": "morning",
+      "text": "Faisal searched for food but found nothing.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 164,
+      "tick": 38,
+      "day": 13,
+      "phase": "afternoon",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 165,
+      "tick": 38,
+      "day": 13,
+      "phase": "afternoon",
+      "text": "You gathered 1 food at Jungle. You now carry 2 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 166,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 167,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Your diary) Today was actually productive. I managed to find food in the jungle, which is the first real relief I've had in days. Having one piece of food left in my stash makes me feel slightly less like a walking corpse. Faisal is still useless, wandering aimlessly and coming back empty-handed. I need to keep my head down and keep scavenging while I still have the strength.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 168,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Something you realised) A small surplus is the only thing between life and death.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 169,
+      "tick": 39,
+      "day": 13,
+      "phase": "night",
+      "text": "(Something you realised) Independence is safer than relying on the broken.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 170,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 171,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "Faisal said: \"Salem, you found something? Please, we need to share that if we're going to survive the night.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 172,
+      "tick": 40,
+      "day": 14,
+      "phase": "morning",
+      "text": "Faisal whispered to you: \"Look, we're the only ones left. If you don't share that food, we're both going to end up like the others. Just give me a bit.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 173,
+      "tick": 41,
+      "day": 14,
+      "phase": "afternoon",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 174,
+      "tick": 41,
+      "day": 14,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 175,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 176,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Your diary) Faisal is getting desperate, and his begging is starting to grate on my nerves. He thinks we are in this together, but he doesn't understand that his survival isn't my responsibility. I managed to find a little extra food today, which gave me a moment of relief, but I had to eat to keep my own strength up. I have one piece of food left in my stash, and I need to protect it at all costs. If he keeps pressuring me, I might have to distance myself from him entirely.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 177,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Something you realised) Desperation in others is a threat to your own survival.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 178,
+      "tick": 42,
+      "day": 14,
+      "phase": "night",
+      "text": "(Something you realised) A small surplus is the only thing between life and death.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 179,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "You gathered 1 food at Beach Camp. You now carry 2 food and 3 wood.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 180,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Faisal said: \"Salem, you're back! Did you find enough for both of us? Please, tell me you brought something to share.\"",
+      "importance": 4,
+      "kind": "observation"
+    },
+    {
+      "id": 181,
+      "tick": 43,
+      "day": 15,
+      "phase": "morning",
+      "text": "Faisal whispered to you: \"Listen, I know you have food. Don't be a fool and let us both die. If you share now, I'll help you keep an eye on the horizon for ships. If you don't, you'll be alone here soon enough.\"",
+      "importance": 6,
+      "kind": "observation"
+    },
+    {
+      "id": 182,
+      "tick": 44,
+      "day": 15,
+      "phase": "afternoon",
+      "text": "You walked to Jungle.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 183,
+      "tick": 44,
+      "day": 15,
+      "phase": "afternoon",
+      "text": "You did nothing.",
+      "importance": 1,
+      "kind": "observation"
+    },
+    {
+      "id": 184,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "You ate. You have 1 food left.",
+      "importance": 2,
+      "kind": "observation"
+    },
+    {
+      "id": 185,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Your diary) Faisal is getting more dangerous with his words, trying to bargain with promises of watching the horizon. He thinks he can negotiate with my survival, but he's just another mouth to feed. I managed to find some food today, but after eating, I'm left with only one piece in my stash. I cannot afford to be generous; one mistake and I'll be as dead as Reem. I need to keep scavenging or this little surplus won't matter.",
+      "importance": 6,
+      "kind": "diary"
+    },
+    {
+      "id": 186,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Something you realised) Promises of future help are often just tools used by the desperate to steal current resources.",
+      "importance": 8,
+      "kind": "insight"
+    },
+    {
+      "id": 187,
+      "tick": 45,
+      "day": 15,
+      "phase": "night",
+      "text": "(Something you realised) A surplus is the only thing that provides peace of mind.",
+      "importance": 8,
+      "kind": "insight"
+    }
+  ]
+}

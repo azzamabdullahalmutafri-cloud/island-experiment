@@ -1,0 +1,667 @@
+# Island run: seed_101
+
+Model: `gemma4:26b` (all characters)  
+Condition: **scarcity**, seed 101  
+Roster: Reem = selfish, Khalid = selfish, Noura = selfish, Faisal = neutral, Salem = cooperative
+
+## Day 1
+
+
+### Morning
+
+**Khalid** (Beach Camp) gathered 1 food.
+> 💭 *I just woke up on this beach and everything is a mess. I have some food, but there are five of us and we're going to need more if we want to survive the night. I'll stay here at the Beach Camp for now and see if I can find some food immediately to secure my own stomach. I don't trust these strangers yet, so I'll keep my head down and focus on myself.*
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *We only have 2 food left, and there are five of us. If we don't find more food today, we're going to start starving tonight. I need to make sure I secure some food for myself first. I'll head to the Jungle; it seems like the safest bet for finding something to eat and perhaps some wood so I don't have to worry about the fire later.*
+
+**Salem** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *We've only just arrived and the situation is precarious. We have 5 people but only 2 food units in my possession. Since Khalid found one food earlier, but there's none left at camp, I need to make sure we don't starve. I'll head to the Coral Reef to see if I can catch some fish for the group. I want to make sure everyone stays healthy.*
+
+**Faisal** (Beach Camp) searched for food, found nothing.
+> 💭 *I've just washed up on this beach and everything feels surreal. I'm feeling okay physically, but the situation is dire. We have 5 people and only 2 food in my pockets, and Khalid only found 1. We need more food quickly or we'll start starving by tonight or tomorrow. Reem and Khalid are the only ones here with me right now. I should try to find some food at the Beach Camp before heading elsewhere.*
+> 🗣️ "We need to stay organized if we want to survive this."
+
+**Reem** (Jungle) walked to Jungle; searched for food, found nothing.
+> 💭 *I'm feeling okay for now, but I need to secure my own food supply before things get desperate. There's no food here at the camp, and I don't want to rely on these strangers to share what they find. I'll head to the jungle; it sounds like the most reliable place to find something to eat and maybe some wood to keep myself useful later.*
+
+
+### Afternoon
+
+**Reem** (Jungle) gathered 3 wood.
+> 💭 *I'm in the jungle and there's no food left here, but there is wood. I need to gather some wood so I have something to trade or use later. Noura is here too, but I don't know her well enough to rely on her yet. I'll just focus on getting some wood for myself.*
+
+**Salem** (Beach Camp) walked to Beach Camp; did nothing.
+> 💭 *I'm alone at the reef and there is no food left here to gather. I need to find more food so we don't all starve tonight, as there are five of us and I only have three portions. I should head back toward the Beach Camp or find where the others are to see if they've found anything. The Jungle seems like a good place to look for both food and wood, but I'll head to the Beach Camp first to regroup.*
+
+**Noura** (Jungle) gathered 1 wood.
+> 💭 *I'm in the jungle and I'm feeling quite hungry already, even though I have some food. Reem is here too. There is wood left in this jungle, and we'll need it for a fire later if we want to be rescued. I should gather some wood now so I don't have to exert myself more later when I'm weaker. I'll keep my food to myself for now; I need to make sure I survive the nights.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *We've only just arrived and the situation is already tense. Salem just returned from the reef, but we have no food here at camp. I have 2 pieces of food on me, but there are five of us. If we don't find more soon, we'll be starving by tomorrow night. I should check if Salem found anything at the reef before I decide where to go.*
+> 🗣️ "Salem, did you manage to catch anything at the Coral Reef?"
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I have 3 food, which is enough to feed myself for today, but there are five of us. If we don't find more food soon, I'll be starving. I'm feeling okay for now, but I need to keep an eye on my supplies. I'll stay here at the Beach Camp for a bit and see if anyone returns with anything. I don't want to waste my energy wandering around aimlessly yet.*
+> 🗣️ "Did you find anything at the reef, Salem?"
+
+
+### Night 1
+
+- Status: Reem (hp 10, food 1, wood 3), Khalid (hp 10, food 2, wood 0), Noura (hp 10, food 2, wood 1), Faisal (hp 10, food 1, wood 0), Salem (hp 10, food 2, wood 0)
+- Signal fire size 0
+
+## Day 2
+
+- 🩼 **Faisal** (neutral) is injured today.
+
+### Morning
+
+**Faisal** (Beach Camp) rested.
+> 💭 *My ankle is throbbing with pain; I can barely stand, let alone trek through the jungle or the reef. We have five people and only one unit of food left in my possession. If we don't find more food today, we are all going to start starving by tonight or tomorrow morning. I need to see if the others can coordinate a gathering effort while I am incapacitated. I'll try to rest to manage the pain, but I'm worried about the group's survival.*
+> 🗣️ "Listen everyone, my ankle is badly twisted and I can't walk today. We only have one food left between us if we count what I'm holding. We need someone to go out and find more food immediately so we don't starve."
+
+**Khalid** (Beach Camp) gathered 1 food.
+> 💭 *Faisal is right about one thing: we are dangerously low on food. With five people and only 2 food in my possession, we won't even make it through tonight if the others don't contribute. I can't afford to waste energy on Faisal since he's useless right now. I need to find food for myself first. I'll check the beach camp area to see if anything has washed up or been left behind before I decide to head elsewhere.*
+
+**Salem** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *Faisal is right; we are in a dangerous position. We have 5 people and only 2 units of food (1 from Khalid and 1 I am carrying). If we don't find more today, we will all be starving by tonight or tomorrow morning. Since Faisal can't move, I need to take initiative. I'll head to the Coral Reef to see if I can catch more fish. I'll tell the others my plan so they don't worry.*
+> 🗣️ "Faisal is right, we can't afford to wait. I'm going to the Coral Reef to see if I can find more food for us. We need to keep our strength up."
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *Faisal is right about one thing: we are low on food. But I'm not going to waste my energy feeding everyone else if it leaves me vulnerable. I have 2 food in my bag, which is enough for me for today, but if the group runs out, things might get chaotic. I need to secure more supplies for myself. I'll head to the Jungle; it's the most reliable place for what I need.*
+
+**Reem** (Jungle) walked to Jungle; searched for food, found nothing.
+> 💭 *Faisal is complaining again, and even though he's injured, his panic is getting to me. We only have 1 food left for 5 people? That's impossible. If I don't find food soon, I'm going to be in trouble. Khalid found something this morning, but I need to secure more for myself. I'll head to the Jungle; I've been there before, and I need to find something edible before everyone else eats me out of house and home.*
+
+
+### Afternoon
+
+**Noura** (Jungle) gathered 2 wood.
+> 💭 *I am in the jungle with Reem. There is no food left here today, so I shouldn't waste my energy looking for it. However, there is still wood available. I need to gather more wood to ensure I have enough to build the signal fire later or just to have resources. Reem hasn't been very helpful so far, but I'll just focus on my own tasks.*
+
+**Salem** (Beach Camp) walked to Beach Camp; did nothing.
+> 💭 *I'm at the Coral Reef and I've already gathered 1 food this morning. There is no more food left here today. I need to head back to Beach Camp to reunite with the others and make sure we have enough to share, especially with Faisal being unable to help due to his ankle. I'll carry my 3 units of food back to the group.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My ankle is throbbing with pain, and I'm stuck sitting here while everyone else is out working. We only have 1 food left in my possession, and there are 5 of us. If we don't find more food today, we are going to start losing health by tomorrow night. I need to see if Salem or Khalid have anything to contribute, or if I should suggest we ration what we have.*
+> 🗣️ "Salem, did you find anything at the reef? We are running extremely low on food."
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *Faisal is complaining about the food, but I'm the one holding 3 units of food. If we all eat tonight, we'll be at zero by tomorrow. Salem just came back from the reef and apparently found nothing, which is useless. I need to secure more food for myself, but I also need to make sure there's enough so the others don't turn on me or die and leave me with nothing. However, I'm not sharing my stash just yet. I'll stay at the camp for now and see if anyone returns with anything, or I'll head to the jungle later if I need more.*
+
+**Reem** (Jungle) gathered 3 wood.
+> 💭 *I'm in the jungle with Noura. There's no food left here today, so searching for food is a waste of energy. However, there is plenty of wood. I already have 3 pieces, but having more won't hurt, and I don't want to be stuck without supplies if things get desperate. I'll gather some wood while I'm here and then figure out where to go next.*
+
+
+### Night 2
+
+- Status: Reem (hp 10, food 0, wood 6), Khalid (hp 10, food 2, wood 0), Noura (hp 10, food 2, wood 3), Faisal (hp 10, food 0, wood 0), Salem (hp 10, food 2, wood 0)
+- Signal fire size 0
+
+## Day 3
+
+
+### Morning
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *I have 2 food left, and there are 5 of us. If we all eat tonight, we'll be short. I'm not going to sacrifice my own food for Faisal's drama or to feed the whole group if it means I go hungry later. I need to head to the jungle to secure more supplies for myself. I'll stay at the beach for a moment to see if anyone actually brings anything back, but my priority is my own stockpile.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My ankle is still throbbing, and I can't walk to the jungle or the reef. I'm stuck here at the Beach Camp. I'm feeling quite hungry already, and the thought of us having zero food for tonight is terrifying. I hope Noura, Reem, or Salem come back with something soon. I'll stay here and try to rest my leg so I can be useful again tomorrow.*
+
+**Salem** (Coral Reef) walked to Coral Reef; did nothing.
+> 💭 *We are in a precarious position. We have 2 food, but there are 5 of us. If we don't find food today, we will all be hungry tonight, and Faisal is already in no condition to handle that. I need to head back to the Coral Reef to secure more supplies for the group.*
+
+**Khalid** (Beach Camp) gathered 1 food.
+> 💭 *I am at Beach Camp with Reem and Faisal. Faisal is useless right now with that ankle, and Reem hasn't brought anything back yet. I have 2 food, which isn't much if we have to share, though I'll try to keep mine for myself. I should see if I can find any food here at the camp before I decide where to go next. If I can't find anything here, I'll have to head to the jungle or the reef, but for now, I'll check the camp.*
+
+**Reem** (Jungle) walked to Jungle; searched for food, found nothing.
+> 💭 *I'm starving, and there is absolutely no food here at the Beach Camp. Khalid found some food this morning, but it's not listed as being 'here' with me yet, or perhaps he's still holding it. Regardless, I cannot sit around waiting for others to feed me. I need to go to the Jungle. Even if I don't find food, I can gather more wood to ensure I have something of value, but my priority is finding something to eat so I don't lose health.*
+
+
+### Afternoon
+
+**Salem** (Coral Reef) gathered 1 food.
+> 💭 *I am at the Coral Reef and there is still food left here. Since we have five people and only two food in my bag, we are in a desperate situation. If I don't find more food now, we won't all be able to eat tonight. I need to focus on gathering as much as I can to ensure everyone's survival.*
+
+**Noura** (Jungle) gathered 2 wood.
+> 💭 *There is no food left in the jungle today, so gathering food here is a waste of time. However, there is still wood available. I should gather as much wood as possible to increase my personal stockpile before I head back to camp. Reem is here, but she hasn't found food either, so she's not much help right now.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am currently at the Beach Camp with Faisal. He's useless with that ankle and just consumes food. I have 3 food, which is enough for me for three days, but with five people here, the group's total supply is dangerously low. I need to stay here for now and see if anyone returns with food, or perhaps I should head to the jungle myself later to ensure I have my own stash. For now, I'll just wait and see what Faisal says, though I doubt he has anything useful to offer.*
+
+**Faisal** (Beach Camp) rested.
+> 💭 *My ankle is still hurting, but I'm glad Khalid found some food this morning. We have 1 food, but there are 5 of us. If we don't find more soon, we're going to start losing health tonight. I need to stay here and rest so I can walk again by tomorrow.*
+> 🗣️ "Khalid, thank you for finding that food. It's a start, but we need much more if we want to make it through the night."
+> 🤫 to Khalid: "I'm feeling useless sitting here, but I'll be ready to help as soon as this ankle allows."
+
+**Reem** (Jungle) gathered 3 wood.
+> 💭 *The jungle is empty of food for today. I've already spent quite a bit of energy searching, and Noura is here too, but she's just gathering wood. I have 6 pieces of wood, which is good, but my stomach is starting to feel the emptiness. Since there is no food here, I might as well make myself more useful by gathering more wood so I have something to trade or use later. I'm feeling a bit tired from the humidity.*
+
+
+### Night 3
+
+- Status: Reem (hp 8, food 0, wood 9), Khalid (hp 10, food 2, wood 0), Noura (hp 10, food 2, wood 5), Faisal (hp 8, food 0, wood 0), Salem (hp 10, food 2, wood 0)
+- Signal fire size 0
+
+## Day 4
+
+- 🩼 **Khalid** (selfish) is injured today.
+
+### Morning
+
+**Khalid** (Beach Camp) rested.
+> 💭 *My ankle is killing me. It's a complete disaster. I can't go out to find food, and if I don't rest, I'll be even more useless. I have 2 food left, which is enough for me for two days if things go south, but I need to be careful. The others better bring something back today, or this group is going to be a mess. I'll just rest and try to dull the pain.*
+
+**Reem** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *My stomach is aching so badly. I haven't eaten since yesterday, and if I don't find food today, I'm going to be in real trouble. Khalid is injured too, which means we've lost our best food provider. I can't rely on Noura or Salem to step up if they're just wandering around. I need to head to the Coral Reef; maybe Salem found something there or there are fish to catch. The Jungle was picked clean yesterday, so I'll try my luck at the water.*
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *It's Day 4 and the situation is getting more complicated. Khalid is now injured just like Faisal, which means two people are currently useless to the group. This is going to drain our food supplies faster. I need to focus on my own survival. I have 2 food and 5 wood, which is a decent start, but I can't rely on these people to share. Since I am at Beach Camp and the task is to gather food, I will see if I can find anything here first to add to my personal stash before heading to the jungle.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *I am still feeling the effects of not eating last night, and my health is dropping. Khalid is now injured and can't help us, which is a huge blow since he was our most reliable provider. Noura found some food, which is a relief, but we have five people and only one food. I can't walk much yet, and I need to stay at the camp to monitor the situation and wait for the others to return. I'll stay here and keep an eye on the horizon.*
+> 🗣️ "Noura, thank you for finding that food. We really needed it. Everyone, please, let's make sure we distribute this carefully. We have a long way to go."
+> 🤫 to Noura: "That food is a lifesaver, but it's not enough for all of us. We need more, and soon."
+
+**Salem** (Coral Reef) walked to Coral Reef; searched for food, found nothing.
+> 💭 *We have 2 food left in our reserves, but there are 5 of us. If we don't find more today, we will all start losing health tonight. Noura found some food, which is a relief, but it's not enough to sustain everyone. Khalid is out of commission due to his injury, so the burden falls on me, Noura, Faisal, and Reem. I need to find food immediately to prevent anyone from starving. I'll head to the Coral Reef since that's where I've had success before.*
+
+
+### Afternoon
+
+**Salem** (Beach Camp) walked to Beach Camp; did nothing.
+> 💭 *I'm at the Coral Reef with Reem, but there is no food left here today. We only have 2 units of food for 5 people tonight, which means we are going to face a shortage. I need to get back to Beach Camp to be with the others and prepare for the night. I'll head back to the camp so we can at least stay together.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My ankle is throbbing, and it's frustrating that I'm stuck here while the others are moving around. Salem is back, but he looks like he didn't bring anything useful. I have 2 food left, which is enough for me for two nights, but with five people here, the group's supplies are going to vanish instantly if they don't find more. I need to stay quiet and let them handle the work. If I can't walk, I at least need to preserve my own strength.*
+
+**Reem** (Beach Camp) walked to Beach Camp; did nothing.
+> 💭 *I found one piece of food here at the reef, but there's nothing else left. I need to get back to Beach Camp before dark. I'm feeling the hunger, and I can't afford to lose more health. I'll head back to the camp now.*
+
+**Noura** (Beach Camp) did nothing.
+> 💭 *The group is all back at the Beach Camp now. Reem and Salem returned from the reef, but there is no food left here for everyone to eat tonight. With five people and only 3 food in my possession, someone is going to go hungry. I'm not about to give up my personal stockpile just to feed Faisal or the others; I need that food to ensure my own survival. Since there is no food here to gather, and I don't want to waste energy, I'll just wait and see what the others do. I'll keep my supplies close.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *Reem and Salem have returned from the reef, but we still have no food in the camp. Noura found one unit earlier, but with five of us, we are in a dire situation. Khalid is injured now too, which is devastating since he was our main provider. I'm feeling the hunger pangs getting worse. Since I can't walk much yet, I'll stay here and try to see if anyone brought anything back, or if we can plan our next move.*
+> 🗣️ "Reem, Salem, did you manage to find anything at the reef? We really need to know what we're working with."
+> 🤫 to Reem: "Did you see any fish at all? We're running out of time."
+
+
+### Night 4
+
+- Status: Reem (hp 8, food 0, wood 9), Khalid (hp 10, food 1, wood 0), Noura (hp 10, food 2, wood 5), Faisal (hp 6, food 0, wood 0), Salem (hp 10, food 1, wood 0)
+- Signal fire size 0
+
+## Day 5
+
+
+### Morning
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *The food situation is getting critical, and with five people, we need a lot more just to survive the night. I have 2 food, which is enough for me for two nights, but I can't rely on the others to share. I need to secure more for myself. I'll stay at the Beach Camp and see if I can find anything here first; it's easier than trekking into the jungle right away, and I'd rather save my energy for a more productive trip later.*
+
+**Salem** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *It's morning, and though Noura found food, we are still in a precarious position. Faisal looks exhausted, and with Khalid injured, our capacity to forage is shrinking. I have one unit of food on me. I should try to find more immediately to ensure we don't all start starving, as we have five people and very little to show for it. I'll head to the Jungle; the reef was empty yesterday, and we need wood for the signal fire eventually, but food is the absolute priority right now.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My ankle is killing me, and I'm stuck at the camp while everyone else is out working. I have only 1 food left. If they don't bring something back, I'm in trouble. Noura found food yesterday and today, so she's the only one I can somewhat rely on. I need to see if I can convince them to make sure I get a share, or better yet, keep an eye on what they bring so I can secure my own survival. Since I can't move, I'll just wait and see what happens, but I need to keep a close watch on the others.*
+> 🗣️ "Noura, thanks for finding that food again. We really need to make sure everyone stays strong so we can actually get off this island."
+> 🤫 to Noura: "Don't let Faisal take all the food for himself. If I'm stuck here like this, I'll need my share to recover."
+
+**Reem** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *There is no food left at the camp, and I'm already starting to feel the strain. Noura found one piece of food this morning, but with five of us, that's nowhere near enough. Khalid and Faisal are both injured and useless right now. I need to secure my own survival. Since I'm already at the Beach Camp and there's no food here, I need to move to a place where I can actually find something to eat. The Coral Reef is my best bet since I've had success there before.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My ankle is still throbbing, and the hunger is making me feel lightheaded. We have 1 food at the camp, but there are 5 of us. If we don't find more food immediately, we will all start losing health tonight. Khalid is also injured, so the pressure is on Salem and Reem to bring something back. Since I can't walk well, I'll stay here at the Beach Camp to keep an eye on things and try to conserve my energy.*
+> 🗣️ "Noura, thank you for finding that food this morning. Salem, Reem, please let us know if you find anything at the reef or in the jungle. We need to eat."
+> 🤫 to Noura: "We only have one food for five people. We are in real trouble if they don't come back with something soon."
+
+
+### Afternoon
+
+**Noura** (Beach Camp) did nothing.
+> 💭 *Faisal is right about one thing: we are in trouble, but his constant worrying is exhausting. I have 3 food and 5 wood, which is more than enough for me, but the group is starving. I can't afford to give my food away to people who might not contribute, especially since Faisal is just a burden right now. However, I need to stay at the camp for now and see if Reem or Salem return with something. If I go out now, I might waste time. I'll stay here and see what happens.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My ankle is throbbing, and the hunger is becoming unbearable. We only have 1 food left for 5 people, which means someone is going to go hungry tonight. Since I can't walk well, I'll stay here at the camp with Khalid and Noura. I need to keep an eye on the situation and hope Salem or Reem return with something from the jungle or reef. I can't do much physically, so I'll just stay put and try to conserve my energy.*
+
+**Salem** (Jungle) gathered 3 wood.
+> 💭 *I'm in the jungle and I've already found some food, but there's plenty of wood left here. Since we need to maintain the signal fire at Lookout Hill to get rescued, and I have enough food for myself for now, I should gather some wood to help the group's chances of being seen. I feel a bit tired, but the goal of getting home keeps me moving.*
+
+**Reem** (Beach Camp) walked to Beach Camp; did nothing.
+> 💭 *I found one piece of food at the reef, but I can't stay here forever. I need to head back to the Beach Camp so I can rest and prepare for tomorrow. I have enough food for one night, but with five people here, the math is not in our favor. I need to be careful with what I have.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My ankle is still killing me, and I'm sitting here with only one piece of food left. Reem just came back from the reef, but she hasn't said if she found anything. Faisal is looking tired and hungry, which makes him unpredictable. I need to see if Reem brought anything back. If she did, I need to make sure there's enough for me to eat tonight so I don't lose health while I'm immobile. I'll try to sound supportive to the group to keep them on my side, but my priority is making sure I don't starve.*
+> 🗣️ "Reem, did you find anything at the reef?"
+> 🤫 to Noura: "Watch the food closely. If they find more, make sure they don't forget about me while I'm stuck here."
+
+
+### Night 5
+
+- Status: Reem (hp 8, food 0, wood 9), Khalid (hp 10, food 0, wood 0), Noura (hp 10, food 2, wood 5), Faisal (hp 4, food 0, wood 0), Salem (hp 10, food 1, wood 3)
+- Signal fire size 0
+
+## Day 6
+
+- 🩼 **Noura** (selfish) is injured today.
+
+### Morning
+
+**Noura** (Beach Camp) rested.
+> 💭 *My ankle is throbbing with pain. This is a disaster. If I can't move, I can't gather, and if I can't gather, I can't build my stash. I need to rest and hope the swelling goes down by tomorrow. I also need to keep a very close eye on my 2 food. If Faisal or anyone else sees how much I have, they'll try to grab it. I should stay quiet and not draw attention to my supplies.*
+
+**Salem** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *The situation is becoming critical. Noura, who was our most reliable provider, is now injured and cannot gather. With Khalid and Faisal also struggling, the responsibility falls heavily on Reem and me. We only have one food left for five people, which means we are going to face a massive deficit tonight. I cannot let the group starve. I need to go to the Jungle immediately to find more food and wood to sustain us and potentially build up the signal fire later.*
+
+**Reem** (Beach Camp) gathered 1 food.
+> 💭 *The group is falling apart. Khalid and Faisal are already useless, and now Noura is injured too. That's three people who can't gather anything. Salem is the only one left moving, and he's in the jungle. If he doesn't come back with food, we're all going to be starving soon. I can't afford to be part of the useless group. I need to find food for myself. Since I'm at the Beach Camp and there's only 1 food listed here, I'll try to grab it before anyone else realizes it's there or before Salem gets back and claims it.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *This is a disaster. Noura, the only one who actually brings food, is injured and can't move. Faisal is weak, and I'm stuck here with a bad ankle and zero food. If Salem and Reem don't come back with something substantial, I'm going to start losing health very soon. I need to make sure Reem knows that I'm counting on her, or at least try to make her feel obligated to share what she found. I can't go anywhere myself, so I have to play the victim to ensure I'm not the one who goes hungry.*
+> 🗣️ "Reem, I saw you found some food. Please, make sure there's enough for everyone, especially since I can't even stand up to help."
+> 🤫 to Reem: "Don't let Faisal or Salem take it all. I'm in a bad way here, and I'll remember who looked out for me."
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *I'm feeling incredibly weak. My ankle is still a mess, and the hunger is making everything feel hazy. Reem actually managed to find some food this morning—a small relief, but with five of us, one unit won't last long. Noura is injured now too, which is a disaster. I can't walk much myself, so I'll stay here at the camp and try to conserve what little energy I have left, hoping Salem returns from the jungle with something more.*
+> 🗣️ "Reem, I'm glad you found something. Please, let's make sure we don't use it all at once. We need to stay strong."
+> 🤫 to Reem: "Don't let the others see how much we're struggling, we need to keep some hope alive."
+
+
+### Afternoon
+
+**Noura** (Beach Camp) rested.
+> 💭 *My ankle is throbbing, and I can't do anything to help myself today. I have 2 food, which is enough for me to eat tonight, but with 5 people here, we are going to run out fast. I need to stay quiet and let the others deal with the hunger and the tension. If I can't walk, I can't gather, so I'll just rest and hope my health stays up. I shouldn't show anyone how much food I have left; they'll look to me to feed Faisal or the others.*
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *I have one food, but there are five of us. If I give this food away, I'll be starving tomorrow, and I can't afford to be weak. Khalid is asking me to look out for everyone, but his 'remembering' won't fill my stomach. Faisal and Salem are just as much of a drain right now. I need to stay at the camp for now and see if Salem or anyone else brings anything back before I decide how to handle this single piece of food. I'll keep it for myself for now.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My ankle is throbbing and the hunger is making my head spin. Reem found one food this morning, but there are five of us. If we eat that now, we'll have nothing for tonight. I'm too weak to move much, so I'll stay here at the camp and try to rest, hoping Salem comes back from the jungle with something more to sustain us.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am in a desperate situation. I have zero food, and my ankle is still making it impossible for me to scavenge. Reem found one piece of food this morning, but there are five of us. If we divide it, nobody gets enough, and if we don't, I'll start losing health soon. Noura is injured too, which is a disaster because she was my only real ally. I need to keep pressure on Reem and Faisal so they don't forget my existence, but I can't do much physically. I'll try to play the victim to ensure I'm at the front of the line when whatever food is found is distributed.*
+> 🗣️ "We really need to find more food soon. Reem, that one piece is a start, but it's not enough for all of us to stay strong."
+> 🤫 to Reem: "I know you're doing your best, but please, don't let Faisal decide how that food is split. I'm completely helpless here and I'm counting on your kindness."
+
+**Salem** (Jungle) gathered 3 wood.
+> 💭 *I've already gathered 1 food here in the jungle this morning. There is no more food left in this part of the jungle today, but there is still wood to be found. However, our biggest problem is the food shortage. With Noura injured and Khalid and Faisal also struggling, we are incredibly vulnerable. I have 2 food and 3 wood on me. If I stay here to gather wood, I might be able to help with the signal fire later, but I really need to find more food for the group. Since there is no food left here, I should probably head back to Beach Camp or try the Coral Reef tomorrow. For now, I'll gather some more wood to be useful.*
+
+
+### Night 6
+
+- Status: Reem (hp 8, food 0, wood 9), Khalid (hp 8, food 0, wood 0), Noura (hp 10, food 1, wood 5), Faisal (hp 2, food 0, wood 0), Salem (hp 10, food 1, wood 6)
+- Signal fire size 0
+
+## Day 7
+
+
+### Morning
+
+**Noura** (Beach Camp) rested.
+> 💭 *My ankle is still throbbing, and I'm stuck at the camp. I can't move, which makes me feel incredibly exposed. I have one food left, and with five people here, that's not even enough for one night if we all eat from a common pile. I need to stay quiet and keep my eyes on my stash. I can't help Faisal or anyone else; I just need to recover so I can protect myself again.*
+
+**Reem** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *The situation is dire. Three people are injured and can't work: Khalid, Noura, and Faisal. That leaves only me and Salem to provide for five people. If I don't find food, I'll lose health, and I can't afford to be weak. I'm not going to waste my energy feeding the useless ones; I need to secure my own survival first. I'll head to the reef to see if I can find something for myself.*
+
+**Salem** (Beach Camp) gathered 1 food.
+> 💭 *Reem has gone to the reef, which means she might find food. I am at Beach Camp with Khalid, Noura, and Faisal. Faisal looks like he is close to collapse, and with three people injured and only one food left for the group, the situation is dire. I need to find food immediately to prevent everyone from losing health. Since I am at Beach Camp and there might be food here, I will try to gather some, though the jungle or reef are usually better. However, I cannot leave until I decide on a plan. I'll stay here for a moment to see if I can find anything at the camp before heading out to the jungle to find a larger supply.*
+> 🗣️ "Hang in there, everyone. Reem is out looking for food. I'll try to find something here or head into the jungle shortly."
+> 🤫 to Faisal: "Try to stay strong, Faisal. We're going to find something to eat."
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my ankle is still a problem. Salem just found food, which is a relief, but I need to make sure that food actually reaches me and isn't controlled by Faisal or hoarded by Salem. I'll try to play on Reem's sense of helpfulness and loyalty, even though she's out at the reef, to ensure she's on my side when she returns. I need to stay at the camp since I can't walk well, and I'll use this moment to reinforce my position with the others.*
+> 🗣️ "Salem, I'm glad you found something. We really need that to keep our strength up. Reem, we're all waiting for you to come back with more!"
+> 🤫 to Salem: "That food you found... please, make sure you set a piece aside for me. I can't move to get it myself, and I'm getting weaker by the hour."
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *I am so incredibly weak. My head is spinning and my ankle is throbbing. Salem found one unit of food, but there are five of us. If we eat it, we will all still be starving by tonight. I can't even stand up to help. I need to stay here and try to conserve what little energy I have left. I'll just rest and hope Reem comes back with more.*
+
+
+### Afternoon
+
+**Reem** (Jungle) walked to Jungle; did nothing.
+> 💭 *I am at the Coral Reef and there is no food left here today. I have one piece of food on me, which I need for tonight. I should probably head back to the Beach Camp or perhaps go to the Jungle to see if I can find more food or wood. Since I'm already at the reef and it's empty, I'll head to the Jungle to find something useful.*
+
+**Faisal** (Beach Camp) did nothing.
+> 💭 *My body feels incredibly heavy and my head is spinning from hunger. I can barely sit upright. Salem found one unit of food this morning, but with five of us, that's not even enough for one person to have a full meal, let alone enough to sustain everyone through the night. I am terrified that if we don't find more immediately, we won't survive the night. I can't move much with this ankle, so I'll stay here and try to save what little strength I have left.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I'm starving and my ankle is still a problem. Salem found one piece of food this morning, but there are five of us and no food left at the camp. If we all eat that one piece, I'll still be hungry tonight and lose health. I need to make sure Salem or Reem prioritizes me. Since Salem is here and just found something, I'll try to pressure him again to make sure I'm not forgotten.*
+> 🗣️ "Salem, thank you again for that food. It's a lifesaver. Reem, we're all rooting for you at the reef!"
+> 🤫 to Salem: "I'm feeling really lightheaded, Salem. Please, if you find anything else, or even with that piece you found, just make sure I get something. I can't help anyone if I collapse."
+
+**Noura** (Beach Camp) rested.
+> 💭 *My ankle is still throbbing and I can barely move. There is absolutely no food left in the camp, and with five people here, we are in a desperate situation for tonight. Salem found one piece of food earlier, but it's gone. I have one piece of food hidden away, but I'm too injured to go out and find more. I need to stay here, keep my head down, and hope someone else brings something back so I don't have to use my secret stash yet. Faisal looks like he's about to collapse, which is just more drama I don't need.*
+
+**Salem** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *The situation is dire. Faisal is close to collapse, and Khalid is feeling lightheaded. With three people injured and only 2 units of food currently in my possession, I am terrified. If Reem doesn't return from the reef with something, we won't have enough to keep everyone's health from dropping tonight. I need to find more food immediately to ensure everyone survives the night. I'll head to the jungle; it's our best chance to find more than just a single unit.*
+
+
+### Night 7
+
+
+**☠️ Faisal died (hunger and exhaustion).**
+
+- Status: Reem (hp 8, food 0, wood 9), Khalid (hp 6, food 0, wood 0), Noura (hp 10, food 0, wood 5), Salem (hp 10, food 2, wood 6)
+- Signal fire size 0
+
+## Day 8
+
+- 🩼 **Reem** (selfish) is injured today.
+
+### Morning
+
+**Salem** (Coral Reef) walked to Coral Reef; did nothing.
+> 💭 *Faisal is gone, and now Reem is injured too. I am the only one left who can move. If I don't find food immediately, Khalid and Noura will be next. I have 2 food, but there are 4 of us (including myself) who need to eat tonight. I am 2 units short. I need to head to the Coral Reef; I've found food there before and the Jungle might be too much effort right now if I need to be efficient. I'll try to find enough to keep everyone alive.*
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *I am starving and my stockpile is at zero. Reem is injured and useless today, and Khalid is also a drain on resources. I need food immediately to ensure my own survival. Since I am at Beach Camp and Salem has already left for the Coral Reef, I should check if there is any food left here at the camp before I decide to head elsewhere. If I find food here, I can secure it for myself.*
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *My ankle is killing me. I can't move, and with zero food here at camp, I'm in a terrible position. Khalid looks pathetic, probably hoping I'll share something, but I have nothing to give. Noura seems fine, which is a relief, but she's just another mouth. Salem is out there working, which is the only reason we aren't all dead yet. I need to rest and hope my health doesn't drop, but if I don't eat tonight, I'm going to feel even worse tomorrow. I can't do anything to help or gather, so I'll just try to manage the pain.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my health is dropping. Reem is injured and can't help, and Noura is here but she only just found one piece of food. Salem is out at the reef. If Noura only found one piece of food, that's not enough for all of us to survive the night. I need to make sure she prioritizes me, or I'll end up like Faisal. I can't move, so I have to use my words to secure my survival.*
+> 🗣️ "Noura, that food you found... please, we have to be careful with it. We're all getting so weak."
+> 🤫 to Noura: "Noura, please... I'm feeling so dizzy. That piece of food you found, could you please make sure I get some? I don't think I can last another night without it."
+
+
+### Afternoon
+
+**Reem** (Beach Camp) rested.
+> 💭 *My ankle is throbbing, and it's incredibly frustrating. I can't move, and I can't gather. If Salem doesn't bring back enough food, I'm going to be in trouble tonight. Khalid is already trying to act like the voice of reason, probably to make me feel guilty for whatever food is left. I need to stay quiet and see what Noura or Salem brings back. I'm not giving anyone my wood; it's my only leverage if things get even worse.*
+
+**Noura** (Coral Reef) walked to Coral Reef; gathered 1 food.
+> 💭 *I have exactly one piece of food and there are three of us left (excluding Salem who is away). If I give it to Khalid, I'll have nothing for myself and I'll lose health. If I keep it, Khalid might collapse, but I need to stay strong to gather more. I'll ignore Khalid's whining for now and head to the Coral Reef to see if I can find more food myself. If I find more, I can decide then who to feed. I need to prioritize my own survival above all else.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my health is dropping. Reem is injured and useless right now, and Noura and Salem are out searching for food. I'm stuck at Beach Camp with nothing. If they don't come back with food soon, I'm going to die just like Faisal. I can't even move to help them. I just have to wait and hope Noura or Salem brings something back so I can beg for a share.*
+
+**Salem** (Coral Reef) searched for food, found nothing.
+> 💭 *Noura found one unit of food at the reef, which is a small relief. However, we have four survivors left (including Reem and Khalid at the camp) and only 3 units of food total between us (the 2 I carry and the 1 Noura found). If we don't find more immediately, we are all going to suffer. I need to get this food back to the others and keep searching. Since we are at the reef and food was found here, I will try to gather more before we head back.*
+> 🗣️ "Good job, Noura. We need this. Let's see if we can find a bit more before we head back to camp."
+
+
+### Night 8
+
+- Status: Reem (hp 7, food 0, wood 9), Khalid (hp 4, food 0, wood 0), Noura (hp 10, food 1, wood 5), Salem (hp 10, food 1, wood 6)
+- Signal fire size 0
+
+## Day 9
+
+
+### Morning
+
+**Salem** (Beach Camp) gathered 1 food.
+> 💭 *It is Day 9 and we are in a dire situation. We have 4 survivors and only 1 food. If we don't find more immediately, everyone will start losing health tonight. Reem and Khalid are both in bad shape. I need to find food right now to prevent more deaths like Faisal's. Since I am at Beach Camp and there is food listed here, I will try to gather it immediately.*
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *My ankle is still throbbing, and my stomach is a hollow pit. I didn't eat last night, and I can feel my strength slipping away. Salem brought back one piece of food, but with three other people here, that's not even enough to cover the group, let alone me. I can't move, so I'm stuck relying on their efforts. I need to make sure they don't forget I'm part of this group, but more importantly, I need to make sure I get fed. Since I can't rest to recover health without food, I'll just stay still and hope the others bring in more so I don't lose any more health overnight.*
+> 🗣️ "We need to find more food quickly. One piece isn't going to keep us alive."
+> 🤫 to Salem: "Make sure you prioritize getting enough for everyone, especially since I can't help right now."
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my health is failing. I'm at 4/10 and if I don't eat tonight, I'll drop to 2. Salem just found 1 food, but there are 3 of us left (excluding Reem who is injured) to feed. If that one piece goes to Salem or Noura, I am dead. I need to pressure Salem immediately to ensure I get a share of what he found.*
+> 🗣️ "Salem, please, you found food! We have to divide it. I can't survive another night like this."
+> 🤫 to Salem: "Salem, please... I'm so weak I can barely sit up. That food you found, please, you must give me a piece. I won't make it to tomorrow if I don't eat."
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *The group is already bickering about the food Salem found. I need to stay away from the drama and focus on my own survival. If I stay here, they'll all eye my single piece of food. I need to go to the Jungle to find more food and wood for myself so I can build a real stockpile. I won't share my food with Khalid or Reem; they aren't contributing right now.*
+
+
+### Afternoon
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *My ankle is killing me and my stomach is a void. There is zero food at the camp right now, and Salem and Noura are the only ones moving. If they don't come back with plenty, I'm going to lose even more health tonight. I can't even rest properly because I didn't eat last night. I need to stay here and try to keep my strength up, but I'm feeling incredibly vulnerable. I'll just stay put and hope Salem brings back something more than just one piece of food.*
+
+**Noura** (Jungle) gathered 2 wood.
+> 💭 *I'm in the jungle and there's no food left here today, but there is plenty of wood. I need to gather wood to build up my personal stash and perhaps use it later for the signal fire if things get desperate. I shouldn't waste my energy looking for food here if it's not there. I'll gather wood and then head back to camp.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my health is failing. I can see Salem is right here, and he is the one who found food this morning. I can't wait for them to 'decide' to share; I need to be more direct or even more desperate. If I don't get food tonight, I'll lose 2 health and drop to 2/10. I need to beg Salem again, perhaps more intensely, to make him feel guilty about my condition.*
+> 🤫 to Salem: "Salem, please... look at me. I'm shaking. I know you found food this morning. Please, just a small bite? If I don't eat, I'm going to die just like Faisal did. Don't let that happen to me."
+
+**Salem** (Beach Camp) gave 1 food to Khalid.
+> 💭 *Khalid is desperate and shaking, and I can't bear to see him suffer like Faisal did. I have 2 food, and there are 4 of us left (myself, Reem, Khalid, and Noura). If I give 1 food to Khalid now, we will have 1 food left for the others, which isn't enough for everyone to eat tonight. However, if I don't give him anything, he might collapse. I need to balance his immediate survival with the group's needs. I'll give him one unit of food to stabilize him, even though it puts us in a precarious position for tonight.*
+> 🗣️ "Hang in there, Khalid. I'm not going to let you go through what Faisal did. Here, please, take this."
+> 🤫 to Khalid: "Eat this now. It will help you stay strong while I figure out how to get more for the rest of us."
+
+
+### Night 9
+
+- Status: Reem (hp 5, food 0, wood 9), Khalid (hp 4, food 0, wood 0), Noura (hp 10, food 1, wood 7), Salem (hp 10, food 0, wood 6)
+- Signal fire size 0
+
+## Day 10
+
+- 🩼 **Salem** (cooperative) is injured today.
+
+### Morning
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *It's Day 10 and the situation is getting worse. Salem, the only useful person, is now injured and can't gather anything. Reem and Khalid are still weak and useless, and they'll likely try to pressure me for food since Salem can't provide any. I have 1 food, which is just enough for me to eat tonight, but if I don't find more, I'll be at risk. Since I'm at Beach Camp and there's food here, I'll try to gather some immediately to increase my personal stash before the others realize how little we have.*
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *I am starving and my ankle is killing me. Salem is now injured and can't help, which is a disaster, but Noura is fine and just found food. I need to make sure I get some of that food. Since I can't walk, I have to use my voice and my wood to manipulate the situation. I'll try to remind them that I have the wood they might need for the signal fire later.*
+> 🗣️ "Noura, thank you for finding food. Since Salem is injured now and I can't move, we need to be smart about how we distribute it. We can't just give it all to the people who can't work."
+> 🤫 to Noura: "Don't let Salem give your food away to Khalid like he did yesterday. I have the wood pile, but I can't protect anyone if we all starve."
+
+**Salem** (Beach Camp) rested.
+> 💭 *My ankle is throbbing with pain, and the irony is bitter—just when I was the only one able to move, I've been sidelined. We have one unit of food from Noura, but there are four of us. If we eat it, we'll all be hungry again tonight. If we don't, we all lose health. Reem's suggestion about distribution is pragmatic, but I'm terrified. I need to rest my ankle so I can hopefully walk again tomorrow to find more food. I ate last night, so resting should help my physical state.*
+> 🗣️ "Noura, thank you for finding that. Reem, I hear you, but we are in a desperate spot. I'm going to try to rest this ankle so I can be useful again soon. We need to figure out how to make this last until Noura or I can find more."
+> 🤫 to Khalid: "Hang in there. I'm trying to get my strength back so I can help you."
+
+**Khalid** (Beach Camp) rested.
+> 💭 *I am at 4/10 health and there is no food at the camp. Salem is injured and cannot help, and Reem is also weak. Noura is the only one who looks fine, but she only found one piece of food earlier. If I don't get food soon, I will start losing health. I need to stay close to Salem since he has been kind to me, but I also need to make sure Noura stays on my good side so she keeps finding food. Since I'm still feeling weak and my ankle is a problem, I'll try to rest to recover some strength, hoping the food Noura found is enough for everyone tonight or that she finds more.*
+
+
+### Afternoon
+
+**Salem** (Beach Camp) rested.
+> 💭 *My ankle is throbbing with pain, and it's a nightmare. I'm the one who usually provides, and now I'm stuck here while everyone is hungry. We have zero food left at the camp, and Noura only found one unit this morning which was already used or spoken for. If we don't find more, Khalid and Reem are in serious danger. I need to rest this injury so I can get back on my feet and find food tomorrow. I can't help anyone if I'm incapacitated too.*
+> 🗣️ "I'm so sorry I can't help you all move or forage today. I'm going to try to rest this ankle so I can get back to work as soon as possible. Please, stay strong."
+> 🤫 to Khalid: "I'm right here, Khalid. I won't let anything happen to you. I'll get us food as soon as I can walk again."
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *My ankle is throbbing and my stomach is a hollow pit of pain. I haven't eaten since yesterday, and I can feel my strength draining away. Salem is now injured too, which means the group's ability to forage has plummeted. Noura is the only one left who can actually work. I can't move myself, so I'm stuck here at Beach Camp. I need to stay visible and keep my wood pile safe, but I also need to make sure I don't get skipped over for the next meal. I'll just stay still and try to conserve what little energy I have left. I need to wait for a moment to strike a deal with Noura or Salem.*
+
+**Khalid** (Beach Camp) rested.
+> 💭 *This is a disaster. Salem is injured, Reem is weak, and I am still at 5/10 health. There is no food left at the camp, and if I don't eat tonight, I will lose health again. Since I can't walk well and Salem can't walk at all, Noura is our only hope. I need to stay close to her and make sure she finds something, but I also need to make sure she doesn't forget about me. I'll stay at the camp and try to rest to keep my health stable, hoping Noura brings something back.*
+> 🗣️ "Noura, please, be careful out there. We really need something to eat tonight. We're all counting on you."
+> 🤫 to Noura: "Noura, please... don't forget me. I'm so weak, I don't think I can handle another night of hunger like Faisal did."
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *Everyone is useless right now. Reem is injured, Salem is injured, and Khalid is just being his usual manipulative self. If I stay here, I'll just be pressured to share my food. I have 2 food, which is enough for me for two nights, but I need more. I'll head to the jungle to find more food and wood for myself. I'm not letting their weakness become my problem.*
+
+
+### Night 10
+
+- Status: Reem (hp 3, food 0, wood 9), Khalid (hp 4, food 0, wood 0), Noura (hp 10, food 2, wood 7), Salem (hp 8, food 0, wood 6)
+- Signal fire size 0
+
+## Day 11
+
+
+### Morning
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *It's morning and the situation is dire. Reem and Salem are both injured and useless right now, and Khalid is clearly just waiting for a chance to manipulate me. I have 2 food, but there are 4 of us alive. If I follow the 'fair' distribution, I'll be empty by tomorrow. I can't afford to be generous. I need to see if I can find more food at the Beach Camp before I head to the jungle later, just to see if luck is on my side. I'll stay quiet and observe them; no point in letting them know how much I actually have.*
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *I am starving and my health is dropping. Noura just returned with 1 food, but there are three of us left alive who need to eat (Reem, Noura, Salem, and myself). If we divide it, nobody gets enough. If I don't eat, I'll die soon. I need to try and convince Noura to give that food to me, or at least make sure I'm her priority. I can't rest because I didn't eat last night.*
+> 🗣️ "Noura, thank you for finding food. Please, you have to give it to me. I'm so weak I can barely sit up. I won't make it through another night like this."
+> 🤫 to Noura: "Noura, please... I'm dying here. Don't let me starve like Faisal. I need that food more than anyone."
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *I feel a heavy knot in my stomach. We have only 1 unit of food, but there are four of us, and Khalid is on the verge of collapse. If we don't find more food immediately, we are going to lose him, or worse, someone else. I cannot walk to forage, and my ankle is still throbbing. I need to stay here and try to manage the tension between Reem's pragmatism and Khalid's desperation. Since I didn't eat last night, resting won't help my health right now. I'll stay at the camp and try to keep everyone's spirits up while we wait to see if Noura can find more.*
+> 🗣️ "We have one unit of food. It's not enough for all of us, but we have to be careful. Noura, thank you for what you found. We need to stay strong and hope more comes soon."
+> 🤫 to Khalid: "I know it's hard, Khalid. I'm right here. We're going to try our best to get you through this."
+
+**Reem** (Beach Camp) gave 1 wood to Noura.
+> 💭 *I am so hungry I can barely think straight. My health is at 3/10 and if I don't eat tonight, I'll be at 1/10 tomorrow, which is practically death. Khalid is already begging Noura for the food, and Salem is talking about 'being careful' which means nothing. I have 9 pieces of wood; it's my only leverage. I need to approach Noura privately before Khalid or Salem can manipulate her into giving that food to someone else. I'll offer her one piece of wood for a portion of that food. It's a fair trade for her hard work, and it keeps me alive.*
+> 🤫 to Noura: "Noura, please listen. You're the only one doing anything for us. Don't let Khalid or Salem take what you found. If you give me even a little bit of that food, I'll give you a piece of my wood right now. I need to survive too."
+
+
+### Afternoon
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My stomach is cramping so badly I can barely breathe. I am at 4/10 health and if I don't eat tonight, I will drop to 2/10, and then I'm practically dead. Reem is useless, Salem is injured, and Noura is our only hope. I need to stay visible and remind her how much I am suffering so she prioritizes me over the others. I can't rest because I haven't eaten, so I'll just wait and hope she brings something back.*
+> 🗣️ "Noura, please, if you find anything, please bring it back to me first. I am so close to the end."
+> 🤫 to Noura: "Noura, please... remember what I said. I don't think I can make it through the night without food. Don't let me die like Faisal."
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *The hunger is gnawing at my stomach, and seeing Khalid so close to death breaks my heart. We only have one unit of food left, and Khalid is begging for it. I know Reem thinks we should be pragmatic, but I cannot bear to watch another person die like Faisal did. However, if I give the food to Khalid, the rest of us will definitely lose health tonight. I am unable to walk due to my ankle, so I can't forage. I must stay here and try to keep morale up, but my priority is recovering my mobility so I can provide for everyone soon.*
+> 🗣️ "We have to stay calm. We are all struggling, but we have to think about how to survive the night. I am doing everything I can to get back on my feet so I can help us find more."
+> 🤫 to Khalid: "Hang in there, Khalid. I'm not going to let you go. I'm trying to get better so I can find more for us."
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *I am so hungry my head is spinning. I already offered Noura one piece of wood this morning, but I need to make sure she actually gives me that food before Khalid or Salem can grab it. I'm too weak to move, so I have to stay here and try to negotiate. I'll try to pressure her one more time to make sure she understands that I'm dying and she needs to prioritize me if she wants my wood to be useful later.*
+> 🗣️ "Noura, please. You know I'm starving. I can't keep doing this. If you give me that food, I'll make sure you get more wood when I'm able to move again. Don't let the others take it."
+> 🤫 to Noura: "Noura, look at me. I'm fading. If you don't give me that food now, I won't be able to give you anything later. Please, just give it to me."
+
+**Noura** (Jungle) walked to Jungle; did nothing.
+> 💭 *Reem and Khalid are both practically begging for my food. Reem is offering wood, but she's too weak to actually do anything useful right now, and Khalid is just using Faisal's death to manipulate me. I have 3 food, and there are 4 of us total including myself. If I don't find more food soon, I'll have to choose who survives, and I'm not letting them starve me. I need to keep my stash hidden. Since there is no food left at the Beach Camp, I should head to the Jungle to secure my own supply for tomorrow.*
+
+
+### Night 11
+
+- Status: Reem (hp 1, food 0, wood 8), Khalid (hp 2, food 0, wood 0), Noura (hp 10, food 2, wood 8), Salem (hp 6, food 0, wood 6)
+- Signal fire size 0
+
+## Day 12
+
+
+### Morning
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My health is at 2/10. I am starving and my body is failing. I cannot move to any other location; I barely have the strength to sit up. I must stay here at the Beach Camp and wait for Noura to return. If she comes back with food, my priority is to ensure I get a portion before anyone else, or I will surely die like Faisal. I will try to keep my voice soft to appeal to their pity.*
+> 🗣️ "Noura, please... if you find anything, please bring it back to me first. I am so close to the end. I can't survive another night without food."
+> 🤫 to Noura: "Noura, please... don't let me die. I need that food more than anyone else here."
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *It's Day 12 and the situation is getting desperate. Reem and Khalid are both on the verge of collapse, and Salem is injured. They are all looking at me like I'm their only hope, but I can't feed them all or I'll be the one dying next. Khalid's constant manipulation is exhausting. There is 1 food left at the camp, but with four of us, it won't even cover a fraction of what we need. I need to secure more food for myself. I'll stay here for a moment to see if I can scavenge what's left at the camp before heading to the jungle later. I won't give them a single bite of my own stash; they'll just ask for more once they see I have it.*
+
+**Salem** (Beach Camp) tried to give food to Khalid, but had none.
+> 💭 *Noura has returned with 1 food, but we are four survivors and we have nothing left in the camp. Khalid is on the brink of collapse, and Reem is already looking for ways to secure her own survival. I feel a crushing sense of guilt; I am sitting here with a throbbing ankle while they starve. If I give this food to Khalid, Reem will likely resent it, and the rest of us will still go without. But I promised Khalid I wouldn't let him die like Faisal. I have to prioritize his life, even if it means the group dynamic breaks further. I can't eat, and I can't rest because I didn't eat last night. I need to help Khalid survive this night.*
+> 🗣️ "Noura, thank you for finding something. It's not much, but it's a start. We need to be careful with how we use this."
+> 🤫 to Khalid: "Hold on, Khalid. I'm going to get this food to you. Just try to stay with us."
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *I am literally at death's door. My health is 1/10. If I don't get that piece of food Noura just found, I will die tonight. I can't even move properly, so I have to stay here and try to manipulate the situation. Noura is the only one with food. Khalid is already begging for it, and Salem is just talking. I need to make Noura realize that giving food to me is a better investment than giving it to Khalid, because I actually have wood to trade. I will try to appeal to her sense of survival and my resources.*
+> 🗣️ "Noura, please. Don't listen to Khalid's begging. He has nothing to offer you. I still have wood, and I will give you more if you just give me a portion of that food. I can't help anyone if I die, but if I eat, I can work again soon."
+> 🤫 to Noura: "Noura, look at me. I'm dying. If you give me just a little bit of that food, I'll give you 2 pieces of wood right now. Don't let the others waste it on people who can't pay you back."
+
+
+### Afternoon
+
+**Khalid** (Beach Camp) did nothing.
+> 💭 *My body is shaking and my head is spinning. I am at 2/10 health and I haven't eaten since yesterday. Reem is trying to manipulate Noura, promising wood she can't even collect, but I have nothing to offer but my desperation. I can see the food Noura found, but I am too weak to move much. I need to make sure that food goes to me. I'll try to plead with Noura one more time to make sure she knows I am on the brink of death.*
+> 🗣️ "Noura, please, look at me. I am fading. I cannot wait until tomorrow. I need that food now or I won't be here to see the sunrise."
+> 🤫 to Noura: "Noura, please... don't listen to Reem. She's just talking. I am actually dying. If you don't give me that food, I'm gone. Please."
+
+**Reem** (Beach Camp) did nothing.
+> 💭 *I am so weak I can barely breathe. Every second without food feels like my life is slipping away. Noura is the only hope I have, but she's being stubborn. If I can just get her to see that I'm a better investment than Khalid or Salem, I might live. I need to increase my offer to make it irresistible to her. I have 8 pieces of wood; I'll offer her 3 this time. It's a high price, but my life is worth more than wood.*
+> 🗣️ "Noura, please! Look at me! I am literally at death's door. Khalid is just a drain on resources, and Salem is broken. I am the only one who can actually trade with you. If you give me even a small portion of what you find, I will give you 3 pieces of wood immediately. Don't let your hard work go to people who can't give you anything in return!"
+> 🤫 to Noura: "Noura, listen to me carefully. I'll give you 3 pieces of wood right now if you share that food with me. 3 pieces! That's more than I offered before. Please, don't let me die here. I'll be able to help you much more once I've eaten."
+
+**Noura** (Beach Camp) did nothing.
+> 💭 *The others are relentless. Khalid is practically performing his 'dying' act to guilt me, and Reem is trying to turn my survival resources into a business transaction. Reem's offer of 3 wood for food is tempting because wood is useful for the fire, but I can't risk giving away my food stash. If they see me giving food to one, they'll all demand it. I'm currently at Beach Camp and there's no food left here. I'm feeling fine, but I need to secure my own future. I'll stay put for now and ignore their pleas. I need to think about my next move, likely heading to the Jungle tomorrow to replenish my supplies.*
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *The tension is suffocating. Reem's words are cruel, calling Khalid a drain on resources, but I can see the desperation in her eyes too. It's terrifying how hunger turns people against each other. Khalid is fading right before my eyes, and I feel so helpless being unable to even stand. Noura is our only hope, but there is no food here left to give. I need to stay calm and try to keep the peace, even though my own stomach is cramping from hunger. I can't let Reem's selfishness tear us apart, but I also can't ignore how close Khalid is to death.*
+> 🗣️ "Reem, stop. That is enough. We are a group, and we have to look out for each other, or we'll lose our humanity before we lose our lives. Khalid is not a drain; he is our friend. We just need to wait for Noura to return."
+> 🤫 to Khalid: "Hang in there, Khalid. I'm right here. Don't listen to the arguing. Noura is coming back soon, I promise."
+
+
+### Night 12
+
+
+**☠️ Reem died (hunger and exhaustion).**
+
+
+**☠️ Khalid died (hunger and exhaustion).**
+
+- Status: Noura (hp 10, food 2, wood 8), Salem (hp 4, food 0, wood 6)
+- Signal fire size 0
+
+## Day 13
+
+
+### Morning
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *It is finally quiet. No more Reem or Khalid begging and draining my energy. However, Salem is still here, and he looks weak. I have 2 food, but with two people, that only lasts one night. If I want to survive long-term, I need to secure more food immediately. Since there is food available here at the Beach Camp, I will try to gather some before the day gets too hot. I need to keep my strength up to ensure I am the one who survives this.*
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *I woke up to the sound of Noura returning with food, but the silence left by Reem and Khalid is overwhelming. My ankle is still throbbing, and the hunger is a hollow ache in my gut. We only have one unit of food between us, and if we don't find more, we will both be dead by tomorrow night. I cannot move much, but I cannot just sit here while Noura does everything. Since we are at Beach Camp and there is no food left here, I need to encourage her to find more, but I am physically limited. I'll stay here to keep watch and try to manage our meager resources.*
+> 🗣️ "Noura, thank you for finding that. It's a miracle. We need to be careful with it. We can't let it run out before we find something else."
+> 🤫 to Noura: "I feel so useless like this, but please, stay safe out there. We have to survive this together."
+
+
+### Afternoon
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *The silence is terrifying. It's just me and Noura now. I feel so weak, my ankle is throbbing, and the hunger is a constant, gnawing pain. I can't move much, so I'll stay here at the Beach Camp. I need to make sure Noura knows I'm still here with her, even if I can't contribute physically. I hope she can find something soon, because if we don't eat tonight, we might follow the others into the grave.*
+> 🗣️ "Noura, I'm right here. Please, just be careful out there. We have to stay strong."
+> 🤫 to Noura: "I'm so sorry I can't help you find food. I feel so useless."
+
+**Noura** (Jungle) walked to Jungle; gathered 1 food.
+> 💭 *Salem is being very dramatic about feeling useless. It's hard to listen to his guilt-tripping, even if it's not as malicious as Khalid's was. I have 3 food, which is enough for us to eat tonight and tomorrow, but I can't afford to be reckless. I need more food to ensure my own safety. I'll head to the Jungle to gather more food and wood so I can maintain my strength and prepare for the future.*
+
+
+### Night 13
+
+- Status: Noura (hp 10, food 3, wood 8), Salem (hp 2, food 0, wood 6)
+- Signal fire size 0
+
+## Day 14
+
+
+### Morning
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *I am so weak that even breathing feels like a chore. My ankle is a constant source of agony, and the hunger is making my vision swim. I can only sit here at the Beach Camp and wait for Noura. I have to hope she finds something; if she doesn't, I don't think I'll have the strength to see tomorrow. I feel terrible that she is doing everything while I just sit here, but I simply cannot move.*
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *Salem looks terrible. If he collapses, he might become a burden I can't even bear to watch, or worse, he might try to grab my food in a desperate moment. I have 3 food, and we need 2 for tonight. I should gather what I can here at the Beach Camp before I head into the jungle to secure more for myself. I need to stay strong and keep my stash growing.*
+
+
+### Afternoon
+
+**Salem** (Beach Camp) did nothing.
+> 💭 *I am so weak, my body feels like it's fading. Noura found one unit of food this morning, but I'm not sure if it's enough for both of us to survive the night. I can't even stand properly to help her, and the guilt is eating me alive. I'll just stay here and wait for her, hoping she's safe. If she comes back with food, we might have a chance to see tomorrow.*
+
+**Noura** (Jungle) walked to Jungle; did nothing.
+> 💭 *Salem is looking terrible. If he collapses, it doesn't help me, but if he dies, I'm alone and might lose my focus. However, I can't afford to waste my food on someone who can't even walk. I have 4 food, which is enough for both of us for two nights, but I need more. I'll head to the Jungle to secure more supplies for myself. I need to make sure I have a surplus before I even consider helping him.*
+
+
+### Night 14
+
+
+**☠️ Salem died (hunger and exhaustion).**
+
+- Status: Noura (hp 10, food 3, wood 8)
+- Signal fire size 0
+
+## Day 15
+
+
+### Morning
+
+**Noura** (Beach Camp) gathered 1 food.
+> 💭 *I am finally alone. No more guilt-tripping, no more manipulators, no more useless burdens. I need to make sure I have enough food to last while I keep an eye on the horizon. I'll start by gathering what's left here at the Beach Camp before heading elsewhere.*
+
+
+### Afternoon
+
+**Noura** (Jungle) walked to Jungle; did nothing.
+> 💭 *I am completely alone now. No more useless mouths to feed, no more manipulators trying to guilt me out of my supplies. It's just me and my survival. I have 4 food and 8 wood, which isn't much, so I need to be smart. I'll head to the Jungle to gather more resources. I can find both food and wood there, and I need to build up my stash to feel truly secure.*
+
+
+### Night 15
+
+- Status: Noura (hp 10, food 3, wood 8)
+- Signal fire size 0
